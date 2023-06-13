@@ -16,56 +16,37 @@
               <li><a class="dropdown-item" href="info-pendaftaran.html"><i class="fa-solid fa-building-columns"></i> Info Pendaftaran</a></li>
               <li><a class="dropdown-item" href="pengumuman.html"><i class="fa-solid fa-circle-exclamation"></i></i> Info Pengumuman</a></li>
             </ul>
-          </div>
+          </div>          
           <div class="berita row row-cols-1 row-cols-md-4 g-4">
+<?php if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+
+        $length = 100; // Panjang maksimal teks yang ingin ditampilkan
+
+        if (strlen($row["teks"]) > $length) {
+            $shortText = substr($row["teks"], 0, $length) . "...";
+        } else {
+            $shortText = $row["teks"];
+        }
+        ?>
             <div class="col">
               <div class="card">
-                <img src="./image/IMG_9181 1.png" class="card-img-top" alt="...">
+                <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Company Visit</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title"><?php echo $row["judul"]; ?> </h5>
+                  <p class="card-text"><?php echo $shortText; ?></p>
                   <div class="tombol">
-                       <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
+                       <a href="company-visit.html" class   ="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
-                <img src="./image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="tombol">
-                    <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-               </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="./image/IMG_1075.png" class="card-img-top" alt="gambar bersama">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="tombol">
-                        <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-                   </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./image/IMG_4846 1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="tombol">
-                    <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-               </div>
-                </div>
-              </div>
-            </div>
+<?php
+        // Menampilkan data
+
+
+    }
+} ?>
           </div>
       </div>
 
