@@ -16,4 +16,4 @@ Web ini dibuat menggunakan boostrap, copas-copas ji saja kodong😅
 
 
 ## Sekian Terima Kasih Mohon maaf atas segala kekurangang 🙏
-<img src="https://cdn.discordapp.com/attachments/873016107391402044/1118151779398467584/asdfgd.png" width="50%">
+<img src="https://cdn.discordapp.com/attachments/873016107391402044/1118151779398467584/asdfgd.png" width="80%">
