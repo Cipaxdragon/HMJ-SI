@@ -23,7 +23,7 @@ body {
 
 .nama-nav {
   /* color: #1245BA; */
-  color: #001f60;
+  color: #1245ba;
 }
 
 .searchbox {
@@ -34,7 +34,7 @@ body {
   padding: 0px 10px;
   border-radius: 50px;
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
 }
 
 .contentSearch {
@@ -45,9 +45,9 @@ body {
 
 .Search {
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
   border: none;
-  height: 100%;
+  height: 40%;
   width: 100%;
   padding: 0px 5px;
   font-size: 18px;
@@ -71,7 +71,7 @@ body {
 .kotakAtas {
   position: relative;
   padding: 30px;
-  background-color: #001f60;
+  background-color: #1245ba;
   /* border-radius: 20px; */
 
 }
@@ -79,20 +79,20 @@ body {
 .berita .card-body {
   color: white;
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
 }
 
 .kegiatan .card-body {
   color: white;
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
 }
 
 .big-3 .card {
   width: 378px;
   height: 248px;
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
 }
 
 .big-3 .card img {
@@ -104,7 +104,7 @@ footer {
   width: 100%;
   height: auto;
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
   border-radius: 20px 20px 0 0;
 }
 
@@ -212,7 +212,7 @@ footer .sosmed p a:hover {
   width: 50px;
   height: 50px;
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -234,7 +234,7 @@ footer .sosmed p a:hover {
 
 .kontak-top .row .col {
   /* color: #1245BA; */
-  color: #001f60;
+  color: #1245ba;
   padding: 0px;
 }
 
@@ -258,7 +258,7 @@ footer .sosmed p a:hover {
 .bea-top a {
   text-decoration: none;
   /* color:#1245BA; */
-  color: #001f60;
+  color: #1245ba;
 }
 
 .bea-top .row {
@@ -273,7 +273,7 @@ footer .sosmed p a:hover {
 
 .bea-top .aktif {
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
 }
 
 .bea-top .row .col {
@@ -286,7 +286,7 @@ footer .sosmed p a:hover {
 .comvis {
   padding: 0px;
   /* background-color: #1245BA; */
-  background-color: #001f60;
+  background-color: #1245ba;
   font-size: 18px;
 }
 
