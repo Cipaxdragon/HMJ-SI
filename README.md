@@ -1,5 +1,5 @@
 # 🌟Selamat Datang Di Repo HMJ-SI 👋
-<p><a href="https://sisfouinam.com" target="_blank"><img src="https://cdn.discordapp.com/attachments/873016107391402044/1118054320089342012/2343.png" width="400"><br><a href="https://sisfouinam.com" target="_blank"><img src="https://cdn.discordapp.com/attachments/873016107391402044/1118141839933984838/edfsdwer.png" width="300"></p>
+<p><a href="https://sisfouinam.com" target="_blank"><img src="https://cdn.discordapp.com/attachments/873016107391402044/1118054320089342012/2343.png](https://cdn.discordapp.com/attachments/873016107391402044/1118147148190580796/345345345.png" width="100%">
 
 Web ini dibuat menggunakan boostrap, copas-copas ji saja kodong😅
 
