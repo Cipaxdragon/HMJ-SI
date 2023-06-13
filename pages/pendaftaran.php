@@ -1,87 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="gaya.css">
-    <title>Info Beasiswa</title>
-    <link rel="shortcut icon" href="./image/android-chrome-192x192.png" type="image/x-icon">
-</head>
-<body>
-    <div class="kontainer container-fluid">
-        <!-- AWAL NAVBAR  -->
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-       <div class="container d-flex justify-content-center-around ">
-           <a href="index.html"><img class="logo-nav" src="./image/logo hmjsi.png" alt="logo"></a>
-           <a href="index.html" class="nama-nav fs-5" style="text-decoration: none; font-weight: 850;">SISFO UINAM</a>
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-           </button>
- 
-         <div class="collapse navbar-collapse" id="navbarScroll">
-           <ul  class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-             <li id="peding" class="nav-item">
-               <a class="nav-link fw-bold" href="index.html">Beranda</a>
-             </li>
-             <li id="peding"  class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Berita Terkini
-               </a>
-               <ul id="peding" class="dropdown-menu">
-                   <li><a class="dropdown-item" href="info-beasiswa.html"><i class="fa-solid fa-graduation-cap"></i>Info Beasiswa</a></li>
-                   <li><a class="dropdown-item" href="info-pendaftaran.html"><i class="fa-solid fa-building-columns"></i> Info Pendaftaran</a></li>
-                   <li><a class="dropdown-item" href="pengumuman.html"><i class="fa-solid fa-circle-exclamation"></i></i> Info Pengumuman</a></li>
-               </ul>
-             </li>
-             <li id="peding" class="nav-item">
-               <a class="nav-link fw-bold" href="kegiatan.html">Kegiatan</a>
-             </li>
-             <li id="peding" class="nav-item">
-               <a class="nav-link fw-bold" href="tentang.html">Tentang</a>
-             </li>
-             <li id="peding" class="nav-item">
-               <a class="nav-link fw-bold" href="kontak.html">Kontak</a>
-             </li>
-           </ul>
-          
-         
-         </div>
-         <div class="searchbox">
-          <table class="contentSearch">
-            <tr>
-              <td>
-                <input class="Search" type="text" placeholder="Search">
-              </td>
-              <td>
-                <a href="#"><i class="ikon-cari fa-solid fa-magnifying-glass"></i></a>
-              </td>
-            </tr>
-          </table>
-    </div>
-       </div>
-     </nav>
-   <!-- AKHIR NAVBAR  -->
 
    <main>
-      <div class="bea-top container text-center fw-bold mt-5">
-            <div class="row">
-              <div class="col aktif">
-                <a class="text-light" href="info-beasiswa.html">Info Beasiswa</a>
-              </div>
-              <div class="col">
-                <a href="info-pendaftaran.html">Info Pendaftaran</a>
-              </div>
-              <div class="col">
-                <a href="pengumuman.html">Info Pengumuman</a>
-              </div>
-        </div>
-    </div>
+   <?php include_once "./layouts/bar1.php";?>
+
 
     <div class="activity container">
-        <p class="fs-5 mt-5 fw-bold" style="color:#1245BA;">Info Beasiswa</p>
+        <p class="fs-5 mt-5 fw-bold" style="color:#1245BA;">Info Pendaftaran</p>
         <div class="row">
           <div class="col">
             <div class="kegiatan row row-cols-1 row-cols-md-2 g-4">
@@ -205,10 +128,10 @@
   
         <!-- tombol navigasi -->
         <div class="tombol-halaman mt-5">
-          <a href="info-beasiswa.html" class="rounded-button">
+          <a href="info-beasiswa.html" class="rounded-button bg-light text-dark">
             <h4>1</h4>
           </a>
-          <a href="info-pendaftaran.html" class="rounded-button bg-light text-dark">
+          <a href="info-pendaftaran.html" class="rounded-button">
             <h4>2</h4>
           </a>
           <a href="pengumuman.html" class="rounded-button bg-light text-dark">
@@ -222,48 +145,4 @@
    </main>
 
 
-    <!-- AWAL FOOTER  -->
-  <footer class="mt-5">
-    <ul>
-      <li>
-          <h4>Kontak</h4>
-          <hr>
-          <p class="fw-bold">UNIVERSITAS ISLAM NEGERI ALAUDDIN MAKASSAR</p>
-          <p>SEKRETARIAT HMJ SI, FAKULTAS SAINS TEKNOLOGI</p>
-          <p>KONTAK : +62 859-6429-6474 (NUR FARID MUFID NR)</p>
-          <p>EMAIL : hmj.si@uin-alauddin.ac.id</p>
-      </li>
-      <li>
-          <h4>Sosial Media</h4>
-          <hr>
-          <div class="sosmed">
-            <p><a href="https://www.instagram.com/hmjsi.uinam/"><i class="bi bi-instagram me-2"></i>hmjsi.uinam</a></p>
-            <p><a href="https://twitter.com/hmjsi_uinam"><i class="bi bi-twitter me-2"></i>hmjsi_uinam</a></p>
-            <p><a href="https://www.facebook.com/hmjsi.uinam"><i class="bi bi-facebook me-2"></i>HMJ Sistem Informasi UINAM</a></p>
-            <p><a href="https://www.youtube.com/@hmjsisteminformasiuinam8821"><i class="bi bi-youtube me-2"></i>HMJ Sistem Informasi UINAM</a></p>
-          </div>
-      </li>
-      <li>
-          <h4>Tentang HMJ SI</h4>
-          <hr>
-          <p>Organisasi Ini Bernama Himpunan Mahasiswa Jurusan<br>
-              Sistem Informasi Yang Di singkat HMJ SI. Berkedudukan Di <br> Jalan. Yasin Limpo Samata Gowa <br> Fakultas Sains Dan teknologi Universitas Alauddin Makassar. <br>
-              HMJ SI Didirikan Pada Tanggal 2 Januari 2013</p>
-      </li>
-      <li>
-          <h4>Tautan</h4>
-          <hr>
-          <p>UIN ALAUDDIN MAKASSAR</p>
-          <p>JURUSAN SISTEM INFORMASI</p>
-      </li>
-  </ul>
-</footer>
-</div>
-<!-- AKHIR FOOTER  -->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://kit.fontawesome.com/7cfefc34bd.js" crossorigin="anonymous"></script>
-
-
-</body>
-</html>
+  

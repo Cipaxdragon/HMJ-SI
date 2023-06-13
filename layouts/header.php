@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/gaya.css">
+    <link rel="stylesheet" href="./assets/gaya.css">
     <title>SISFO UINAM</title>
     <link rel="shortcut icon" href="./image/android-chrome-192x192.png" type="image/x-icon">
 </head>
@@ -20,33 +20,32 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul  class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li id="peding" class="nav-item">
-                <a class="nav-link fw-bold";" href="index.html">Beranda</a>
-              </li>
-              <li id="peding"  class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle fw-bold";" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Berita Terkini
-                </a>
-                <ul id="peding" class="dropdown-menu">
-                  <li><a class="dropdown-item" href="info-beasiswa.html"><i class="fa-solid fa-graduation-cap"></i>Info Beasiswa</a></li>
-                  <li><a class="dropdown-item" href="info-pendaftaran.html"><i class="fa-solid fa-building-columns"></i> Info Pendaftaran</a></li>
-                  <li><a class="dropdown-item" href="pengumuman.html"><i class="fa-solid fa-circle-exclamation"></i></i> Info Pengumuman</a></li>
-                </ul>
-              </li>
-              <li id="peding" class="nav-item">
-                <a class="nav-link fw-bold";" href="kegiatan.html">Kegiatan</a>
-              </li>
-              <li id="peding" class="nav-item">
-                <a class="nav-link fw-bold";" href="tentang.html">Tentang</a>
-              </li>
-              <li id="peding" class="nav-item">
-                <a class="nav-link fw-bold";" href="kontak.html">Kontak</a>
-              </li>
-            </ul>
-           
-          
-          </div>
+  <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+    <li id="peding" class="nav-item">
+      <a class="nav-link fw-bold" href="index.php?page=beranda">Beranda</a>
+    </li>
+    <li id="peding" class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Berita Terkini
+      </a>
+      <ul id="peding" class="dropdown-menu">
+        <li><a class="dropdown-item" href="index.php?page=beasiswa"><i class="fa-solid fa-graduation-cap"></i>Info Beasiswa</a></li>
+        <li><a class="dropdown-item" href="index.php?page=pendaftaran"><i class="fa-solid fa-building-columns"></i> Info Pendaftaran</a></li>
+        <li><a class="dropdown-item" href="index.php?page=pengumuman"><i class="fa-solid fa-circle-exclamation"></i> Info Pengumuman</a></li>
+      </ul>
+    </li>
+    <li id="peding" class="nav-item">
+      <a class="nav-link fw-bold" href="index.php?page=kegiatan">Kegiatan</a>
+    </li>
+    <li id="peding" class="nav-item">
+      <a class="nav-link fw-bold" href="index.php?page=tentang">Tentang</a>
+    </li>
+    <li id="peding" class="nav-item">
+      <a class="nav-link fw-bold" href="index.php?page=kontak">Kontak</a>
+    </li>
+  </ul>
+</div>
+
           <div class="searchbox">
               <table class="contentSearch">
                 <tr>
