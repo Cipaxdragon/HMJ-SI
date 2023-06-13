@@ -6,7 +6,7 @@ Web ini dibuat menggunakan boostrap, copas-copas ji saja kodong😅
 
 | Pekerja | Jobdesk | Keterangan |
 |--|--|--|
-| [Ridho](https://www.instagram.com/muhridha_/)  | Penanggung Jawab | Oba Oba 😄/ turu / Sponsor Rokok 🚬 |
+| [Ridho](https://www.instagram.com/muhridha_/)  | Penanggung Jawab, Database | Oba Oba 😄/ turu / Sponsor Rokok 🚬 |
 | [Kanda Adam](https://www.instagram.com/adamm412_/)  | UI Design | Pake Figma 🎨 |
 | [Iyat](https://github.com/rynhdyt19) | Front End | Pakeki Boostrap 👨‍💻 |
 | [Gali](https://github.com/cipaxdragon) | Back End | PHP Native |
