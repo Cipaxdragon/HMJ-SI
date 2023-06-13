@@ -1,8 +1,5 @@
-
-   <main>
+ <main>
    <?php include_once "./layouts/bar1.php";?>
-
-
     <div class="activity container">
         <p class="fs-5 mt-5 fw-bold" style="color:#1245BA;">Info Pendaftaran</p>
         <div class="row">
@@ -142,7 +139,7 @@
           </a>
         </div>
     </div>
-   </main>
+</main>
 
 
   

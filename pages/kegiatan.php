@@ -1,5 +1,4 @@
-
-  <main>
+<main>
     <div class="activity container">
       <p class="fs-3 text-center mt-5 mb-5" style="color:#1245BA; font-weight: 800;">Kegiatan</p>
       <div class="row">
@@ -139,6 +138,6 @@
         </a>
       </div>
   </div>
-  </main>
+</main>
 
 
