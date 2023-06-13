@@ -18,8 +18,14 @@
             </ul>
           </div>          
           <div class="berita row row-cols-1 row-cols-md-4 g-4">
-<?php if ($result->num_rows > 0) {
+          <?php
+$count = 0; // Variabel penanda jumlah card yang sudah ditampilkan
+
+if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
+        if ($count >= 4) {
+            break; // Keluar dari loop setelah 4 card ditampilkan
+        }
 
         $length = 100; // Panjang maksimal teks yang ingin ditampilkan
 
@@ -28,25 +34,25 @@
         } else {
             $shortText = $row["teks"];
         }
-        ?>
-            <div class="col">
-              <div class="card">
+?>
+        <div class="col">
+            <div class="card">
                 <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title"><?php echo $row["judul"]; ?> </h5>
-                  <p class="card-text"><?php echo $shortText; ?></p>
-                  <div class="tombol">
-                       <a href="company-visit.html" class   ="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-                  </div>
+                    <h5 class="card-title"><?php echo $row["judul"]; ?> </h5>
+                    <p class="card-text"><?php echo $shortText; ?></p>
+                    <div class="tombol">
+                        <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
+                    </div>
                 </div>
-              </div>
             </div>
+        </div>
 <?php
-        // Menampilkan data
-
-
+        $count++; // Increment variabel penanda jumlah card yang sudah ditampilkan
     }
-} ?>
+}
+?>
+
           </div>
       </div>
 
