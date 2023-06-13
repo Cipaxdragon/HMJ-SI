@@ -8,8 +8,8 @@ Web ini dibuat menggunakan boostrap, copas-copas ji saja kodong😅
 |--|--|--|
 | [Ridho](https://www.instagram.com/muhridha_/)  | Penanggung Jawab | Oba Oba 😄/ turu / Sponsor Rokok 🚬 |
 | [Kanda Adam](https://www.instagram.com/adamm412_/)  | UI Design | Pake Figma 🎨 |
-| [Iyat](github.com/rynhdyt19) | Front End | Pakeki Boostrap 👨‍💻 |
-| [Gali](github.com/cipaxdragon) | Back End | PHP Native |
+| [Iyat](https://github.com/rynhdyt19) | Front End | Pakeki Boostrap 👨‍💻 |
+| [Gali](https://github.com/cipaxdragon) | Back End | PHP Native |
 
 > **Rencana** Mau implementasi pakai **laravel** tapi nda ada waktu belajar oop dengan mvc tapi implementasinya ada 
 [di sini ]( https://github.com/Cipaxdragon/Laravel_HMJSi) 😅
