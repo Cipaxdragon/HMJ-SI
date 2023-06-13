@@ -9,8 +9,8 @@ Web ini dibuat menggunakan boostrap, copas-copas ji saja kodong😅
 | [Ridho](https://www.instagram.com/muhridha_/)  | Penanggung Jawab | Oba Oba 😄/ turu / Sponsor Rokok 🚬 |
 | [Kanda Adam](https://www.instagram.com/adamm412_/)  | UI Design | Pake Figma 🎨 |
 | [Iyat](github.com/rynhdyt19) | Front End | Pakeki Boostrap 👨‍💻 |
-| [Ghazali](github.com/cipaxdragon) | Back End |[Rencana Mau implementasi pakai laravel tapi nda ada waktu belajar oop dengan mvc repo ada di sini ]( https://github.com/Cipaxdragon/Laravel_HMJSi) 😅 |
+| [Ghazali](github.com/cipaxdragon) | Back End | PHP Native |
 
-Website HMJSI sekarang menggunakan PHP native saja karena waktu yang mepet dengan job-job lain 😓
 
+###[Rencana Mau implementasi pakai laravel tapi nda ada waktu belajar oop dengan mvc tapi implementasinya ada di sini ]( https://github.com/Cipaxdragon/Laravel_HMJSi) 😅
 ## Sekian Terima Kasih Mohon maaf atas segala kekurangang 🙏
