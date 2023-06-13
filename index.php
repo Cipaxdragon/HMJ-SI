@@ -4,7 +4,7 @@
   
   include_once "layouts/header.php";
   $page = isset($_GET['page']) ? $_GET['page'] : 'beranda';
-  include_once "includes/postingan.php";
+  include_once "includes/p_berita.php";
 
   switch ($page) {
     case 'beranda':
