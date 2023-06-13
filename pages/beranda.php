@@ -58,7 +58,7 @@
         <div class="kegiatan row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
               <div class="card">
-                <img src="./image/IMG_9181 1.png" class="card-img-top" alt="...">
+                <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Company Visit</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -70,7 +70,7 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="./image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama">
+                <img src="./assets/image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -82,7 +82,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="./image/IMG_1075.png" class="card-img-top" alt="gambar bersama">
+                    <img src="./assets/image/IMG_1075.png" class="card-img-top" alt="gambar bersama">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -94,7 +94,7 @@
             </div>
             <div class="col">
               <div class="card">
-                <img src="./image/IMG_4846 1.png" class="card-img-top" alt="...">
+                <img src="./assets/image/IMG_4846 1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -116,7 +116,7 @@
                     <div class="presidum card">
                       <div class="row g-0">
                         <div class="col-md-4">
-                          <img src="./image/1.png" class="presidum card-img-top" alt="...">
+                          <img src="./assets/image/1.png" class="presidum card-img-top" alt="...">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -132,7 +132,7 @@
                     <div class="presidum card">
                       <div class="row g-0">
                         <div class="col-md-4">
-                          <img src="./image/3.png" class="presidum card-img-top" alt="...">
+                          <img src="./assets/image/3.png" class="presidum card-img-top" alt="...">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -148,7 +148,7 @@
                     <div class="presidum card">
                       <div class="row g-0">
                         <div class="col-md-4">
-                          <img src="./image/2.png" class="presidum card-img-top" alt="...">
+                          <img src="./assets/image/2.png" class="presidum card-img-top" alt="...">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
