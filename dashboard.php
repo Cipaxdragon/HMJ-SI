@@ -18,9 +18,9 @@ $username = $_SESSION['username'];
 <body>
     <?php
     include_once "includes/koneksi.php";
-    
-        // include_once "pages/crud/read.php";
+        include_once "pages/crud/read.php";
         include_once "pages/crud/create.php";
     ?>
+    <a href="logout.php">Logout</a>
 </body>
 </html>

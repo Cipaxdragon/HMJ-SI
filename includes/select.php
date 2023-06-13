@@ -1,7 +1,9 @@
 <?php
 
 // Mengambil semua postingan
-$sql = "SELECT * FROM postingan";
+$sql = "SELECT * FROM postingan
+ORDER BY waktu DESC;
+";
 $result = $conn->query($sql);
 
 // Memeriksa apakah ada postingan

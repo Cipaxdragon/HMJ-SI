@@ -10,22 +10,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $teks = $_POST["teks"];
     $waktu = date('Y-m-d H:i:s');
     
-       // Koneksi ke database
-       $servername = "localhost";
-       $username = "root";
-       $password = "";
-       $dbname = "hmj-si";
+        include_once "koneksi.php";
    
-       $conn = new mysqli($servername, $username, $password, $dbname);
-   
-       // Memeriksa koneksi
-       if ($conn->connect_error) {
-           die("Koneksi gagal: " . $conn->connect_error);
-       }
 
     // Menambahkan postingan ke database
-    $sql = "INSERT INTO postingan (judul, kategori, gambar, teks, waktu)
-            VALUES ('$judul', '$kategori', '$gambar', '$teks', '$waktu')";
+    $sql = "INSERT INTO postingan (judul, kategori, gambar, teks, waktu,id)
+            VALUES ('$judul', '$kategori', '$gambar', '$teks', '$waktu', '')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Postingan berhasil ditambahkan";
