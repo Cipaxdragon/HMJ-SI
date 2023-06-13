@@ -7,7 +7,6 @@ if(!isset($_SESSION['username'])){
     exit;
 }
 
-// Ambil username dari session
 $username = $_SESSION['username'];
 ?>
 
@@ -17,8 +16,11 @@ $username = $_SESSION['username'];
     <title>Dashboard</title>
 </head>
 <body>
-    <h2>Selamat datang, <?php echo $username; ?>!</h2>
-    <p>Ini adalah halaman dashboard.</p>
-    <a href="logout.php">Logout</a>
+    <?php
+    include_once "includes/koneksi.php";
+    
+        // include_once "pages/crud/read.php";
+        include_once "pages/crud/create.php";
+    ?>
 </body>
 </html>

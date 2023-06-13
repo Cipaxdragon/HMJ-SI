@@ -11,9 +11,7 @@ if ($result->num_rows > 0) {
     $us = $row["username"];
     $pw = $row["password"];
 }
-
 session_start();
-
 // Periksa apakah pengguna sudah login, jika ya, alihkan ke halaman dashboard
 if(isset($_SESSION['username'])){
     header("Location: dashboard.php");
@@ -26,8 +24,6 @@ if(isset($_POST['submit'])){
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // TODO: Lakukan validasi dan verifikasi login ke database Anda di sini
-
     // Jika login berhasil, set session dan alihkan ke halaman dashboard
     if($username == $us && $password == $pw){
         $_SESSION['username'] = $username;
@@ -38,7 +34,6 @@ if(isset($_POST['submit'])){
     }
 }
 ?>
-
 
 <!DOCTYPE html>
 <html>
