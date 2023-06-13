@@ -11,7 +11,8 @@ Web ini dibuat menggunakan boostrap, copas-copas ji saja kodong😅
 | [Iyat](github.com/rynhdyt19) | Front End | Pakeki Boostrap 👨‍💻 |
 | [Ghazali](github.com/cipaxdragon) | Back End | PHP Native |
 
-
-##Rencana Mau implementasi pakai laravel tapi nda ada waktu belajar oop dengan mvc tapi implementasinya ada 
+> **Rencana** Mau implementasi pakai **laravel** tapi nda ada waktu belajar oop dengan mvc tapi implementasinya ada 
 [di sini ]( https://github.com/Cipaxdragon/Laravel_HMJSi) 😅
+
+
 ## Sekian Terima Kasih Mohon maaf atas segala kekurangang 🙏
