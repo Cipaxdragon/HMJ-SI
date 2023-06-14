@@ -26,6 +26,11 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `postingan`
 --
+CREATE TABLE `admin` (
+  `id` int(11) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+)
 
 CREATE TABLE `postingan` (
   `id` int(11) NOT NULL,
@@ -34,7 +39,7 @@ CREATE TABLE `postingan` (
   `gambar` varchar(255) NOT NULL,
   `teks` text NOT NULL,
   `waktu` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+);
 
 --
 -- Dumping data for table `postingan`
