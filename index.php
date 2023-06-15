@@ -31,6 +31,5 @@
       include_once "pages/beranda.php";
       break;
   }
-
   include_once "layouts/footer.php";
 ?>

@@ -1,31 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Jun 13, 2023 at 10:02 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.0.28
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `hmj-si`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `postingan`
---
 CREATE TABLE `admin` (
   `id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
@@ -40,10 +12,6 @@ CREATE TABLE `postingan` (
   `teks` text NOT NULL,
   `waktu` datetime DEFAULT NULL
 );
-
---
--- Dumping data for table `postingan`
---
 
 INSERT INTO `postingan` VALUES(101, 'DOKUMENTASI KEGIATAN RAKER PENGURUS PERIODE 2023', 4, 'GAMBAR DOKUMENTASI KEGIATAN RAKER PENGURUS PERIODE 2023.JPG', 'Assalamualaikum Warahmatullahi Wabarakaatuh\r\n\r\nHalo SItizen👋\r\n\r\nSyukur alhamdulillah, kegiatan RAKER HMJ-SI PERIODE 2023 berhasil terlaksana dengan lancar pada hari Sabtu - Minggu, 4 - 5 Maret 2023. Bertempat di Pondok Kartika 2, Tanjung Bayang, Kota Makassar, Sulawesi Selatan.\r\n\r\nTerima kasih kepada seluruh panitia, pengurus, tamu undangan dan seluruh pihak yang telah berpartisipasi dalam kegiatan ini.\r\n\r\nNah, untuk yang sudah penasaran nih dengan rentetan kegiatan kemarin, berikut sederatan dokumentasi RAKER HMJ-SI Periode 2023 👐🏻✨\r\n\r\nNb:\r\nHayoo dilihat-lihat siapa saja yang ada di foto. Mungkin ada yang kenal atau bahkan foto kalian sendiri 🤭', '2023-03-07 20:35:00');
 INSERT INTO `postingan` VALUES(102, 'MEMPERINGATI HARI BESAR \"WANITA INTERNASIONAL\"', 3, 'MEMPERINGATI HARI BESAR \"WANITA INTERNASIONAL\".JPG', 'Assalamu\'alaikum Warahmatullahi Wabarakatuh\r\n\r\nHalo SItizen!!\r\n\r\nKalian tau tidak kalau, wanita yang cerdas itu belajar dari kegagalannya, tersenyum di saat-saat terendahnya, serta tumbuh lebih kuat saat menghadapi tantangan. Dan Kamu adalah salah satu dari mereka Girls and Ladies 😉\r\n\r\nSELAMAT MEMPERINGATI HARI WANITA INTERNASIONAL ✨✨', '2023-03-08 20:39:43');
