@@ -109,10 +109,13 @@ height: 85px;
   background-repeat: no-repeat;
    width: 213px;
    height: 33px;
+   transition: transform 0.3s;
 }
 #knli:hover{
-   background color : white;
-   
+   border-color : #1E357D;
+   color: #1E357D;
+   transform: scale(1.1);
+   background-color : white;
 }
    </style>
    <div style="flex-direction: column;" class="d-flex gap-3">
