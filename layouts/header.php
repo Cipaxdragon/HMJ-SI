@@ -46,17 +46,6 @@
   </ul>
 </div>
 
-          <div class="searchbox">
-              <table class="contentSearch">
-                <tr>
-                  <td>
-                    <input class="Search" type="text" placeholder="Search">
-                  </td>
-                  <td>
-                    <a href="#"><i class="ikon-cari fa-solid fa-magnifying-glass"></i></a>
-                  </td>
-                </tr>
-              </table>
-        </div>
+          
         </div>
       </nav>
