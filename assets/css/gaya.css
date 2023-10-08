@@ -71,10 +71,12 @@ body {
 .kotakAtas {
   position: relative;
   padding: 30px;
-  background-color: #1245ba;
+  background-color: ;
   /* border-radius: 20px; */
-
+  
 }
+
+
 
 .berita .card-body {
   color: white;
@@ -308,6 +310,9 @@ footer .sosmed p a:hover {
   margin: auto;
 }
 
+
+
+
 @media screen and (min-width: 300px) and (max-width: 400px) {
   * {
     margin: 0;
@@ -392,5 +397,7 @@ footer .sosmed p a:hover {
   
 }
 
-
+.judul{
+  
+}
 
