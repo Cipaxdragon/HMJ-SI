@@ -19,7 +19,6 @@
     case 'pengumuman':
       include_once "pages/pengumuman.php";
       break;
-    
     case 'kontak':
       include_once "pages/kontak.php";
       break;

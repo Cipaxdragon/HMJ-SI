@@ -24,24 +24,24 @@
     <li id="peding" class="nav-item">
       <a class="nav-link fw-bold" href="index.php?page=beranda">Beranda</a>
     </li>
+    <li id="peding" class="nav-item">
+      <a class="nav-link fw-bold" href="index.php?page=kegiatan">Pengumuman</a>
+    </li>
+    <li id="peding" class="nav-item">
+      <a class="nav-link fw-bold" href="index.php?page=tentang">Artikel</a>
+    </li>
+    <li id="peding" class="nav-item">
+      <a class="nav-link fw-bold" href="index.php?page=kontak">Tentang Kami</a>
+    </li>
     <li id="peding" class="nav-item dropdown">
       <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Berita Terkini
+        Lainnya
       </a>
       <ul id="peding" class="dropdown-menu">
         <li><a class="dropdown-item" href="index.php?page=beasiswa"><i class="fa-solid fa-graduation-cap"></i>Info Beasiswa</a></li>
         <li><a class="dropdown-item" href="index.php?page=pendaftaran"><i class="fa-solid fa-building-columns"></i> Info Pendaftaran</a></li>
         <li><a class="dropdown-item" href="index.php?page=pengumuman"><i class="fa-solid fa-circle-exclamation"></i> Info Pengumuman</a></li>
       </ul>
-    </li>
-    <li id="peding" class="nav-item">
-      <a class="nav-link fw-bold" href="index.php?page=kegiatan">Kegiatan</a>
-    </li>
-    <li id="peding" class="nav-item">
-      <a class="nav-link fw-bold" href="index.php?page=tentang">Tentang</a>
-    </li>
-    <li id="peding" class="nav-item">
-      <a class="nav-link fw-bold" href="index.php?page=kontak">Kontak</a>
     </li>
   </ul>
 </div>
