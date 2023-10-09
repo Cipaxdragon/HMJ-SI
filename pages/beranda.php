@@ -5,7 +5,7 @@
          background-image: url('assets/image/Bg_hero.png');
 
          padding :0px;
-      background-color :white;
+         background-color :white;
       }
       .judul {
       justify-content: center;
@@ -138,11 +138,35 @@ height: 85px;
 
 
 <!-- =========================== visimisi ================================ -->
-<div class='tentang d-flex gap-3 '>
+<style>
+   #visimisi{
+       margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex!important;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: row;
+   }
+   #visimisi img{
+    width: 670px;
+   }
+   #vss{
+      margin-left: 0px;
+    flex-direction: column;
+    margin-right: 230‒;
+    margin-right: 230px;
+   }
+   
+   
+</style>
+
+<div id="visimisi" class='tentang d-flex gap-3 '>
    <div>
-      <img src="assets\image\Group 2007.png" alt="">
+      <img src="assets\image\Visi_Misi.png" alt="">
    </div>
-   <div style="flex-direction: column;" class="d-flex gap-3">
+   <div id="vss"  style="flex-direction: column;" class="d-flex gap-3">
       <div >
          <p class="tt">VIsi Misi</p>
       </div>
@@ -157,10 +181,21 @@ height: 85px;
 
 <style>
 .hailaig{
-  text-align: center;
+   color: #1E357D;
+   background-color: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 617px;
+    text-align: center;
 }
 .hailaig img{
-   width: 400px;
+   box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+   width: 900px;
    
 }
 .susunan{
@@ -173,17 +208,12 @@ height: 85px;
 
 
 </style>
-<div class="hailaig">
+<div class="hailaig gap-3">
    <h2>Info Penting</h2>
    <div class="susunan d-flex gap-3">
-      <img src="assets\image\DSC08205.JPG" alt="gambar">
-      <img src="assets\image\DSC08205.JPG" alt="gambar">
-      <img src="assets\image\DSC08205.JPG" alt="gambar">
+      <img src="assets\image\Berita_Kajur.png" alt="gambar">
    </div>      
-
 </div>
-
-
 
 <!-- ============================= Berita Terkini ============================= -->
 <div class="berita-terkini container mt-5">
