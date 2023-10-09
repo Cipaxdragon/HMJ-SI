@@ -66,7 +66,7 @@
    </div>
 </div>
 <!-- tentang (kenali kami lebih lanjut) -->
-<div class='tentang d-flex gap-3 '>
+<div class='tentang d-flex '>
    <style>
       .tentang{
       color: #1E357D;
@@ -131,25 +131,16 @@
 </div>
 <!-- =========================== visimisi ================================ -->
 <style>
-   #visimisi{
-   margin-top: 0px;
-   margin-bottom: 0px;
-   display: flex!important;
-   flex-wrap: wrap;
-   align-items: center;
-   align-content: space-between;
-   justify-content: space-between;
-   flex-direction: row;
+   .tentang{
+      display: flex;
+      margin-top: 0;
+      /* justify-content: space-between ; */
    }
-   #visimisi img{
-   width: 670px;
+
+   .tentang img{
+      width: 600px;
    }
-   #vss{
-   margin-left: 0px;
-   flex-direction: column;
-   margin-right: 230‒;
-   margin-right: 160px;
-   }
+
 </style>
 <div id="visimisi" class='tentang d-flex gap-3 '>
    <div>
