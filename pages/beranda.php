@@ -1,3 +1,4 @@
+<!-- kotak  hero image -->
 <div class="kotakAtas container-fluid">
    <style>
       .kotakAtas {
@@ -66,6 +67,9 @@
    </div>
 </div>
 
+
+
+<!-- tentang (kenali kami lebih lanjut) -->
 <div class='tentang d-flex gap-3 '>
    <style>
       .tentang{
@@ -83,7 +87,7 @@
 font-family: "Montserrat";
 font-weight: 600;
 color: rgba(6, 21, 35, 1);
-width: 73px;
+width: 100px;
 height: 23px;
    }
 .ls {
@@ -94,9 +98,7 @@ color: rgba(6, 21, 35, 1);
 width: 379.17px;
 height: 85px;
 }
-.kenali {
-   
-}
+
 #knli{
    background-image: url('assets\image\tm.png');
      font-size: 14.11px;
@@ -135,6 +137,55 @@ height: 85px;
 </div>
 
 
+<!-- =========================== visimisi ================================ -->
+<div class='tentang d-flex gap-3 '>
+   <div>
+      <img src="assets\image\Group 2007.png" alt="">
+   </div>
+   <div style="flex-direction: column;" class="d-flex gap-3">
+      <div >
+         <p class="tt">VIsi Misi</p>
+      </div>
+      <div>
+         <p class="ls">Lorem ipsum dolor sit amet consectetur. Dis mattis pretium ut semper augue nunc aliquam augue. Lectus arcu cursus aenean egestas. Eget amet eget tortor dolor ac. </p>
+         </div>
+   
+      </div>
+      
+   </div>
+<!-- =========================== Highlight ================================ -->
+
+<style>
+.hailaig{
+  text-align: center;
+}
+.hailaig img{
+   width: 400px;
+   
+}
+.susunan{
+   display: flex!important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+
+</style>
+<div class="hailaig">
+   <h2>Info Penting</h2>
+   <div class="susunan d-flex gap-3">
+      <img src="assets\image\DSC08205.JPG" alt="gambar">
+      <img src="assets\image\DSC08205.JPG" alt="gambar">
+      <img src="assets\image\DSC08205.JPG" alt="gambar">
+   </div>      
+
+</div>
+
+
+
+<!-- ============================= Berita Terkini ============================= -->
 <div class="berita-terkini container mt-5">
    <div class="dropdown">
       <button class="btn dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">

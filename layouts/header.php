@@ -9,6 +9,22 @@
       <link rel="stylesheet" href="./assets/css/gaya.css">
       <title>SISFO UINAM</title>
       <link rel="shortcut icon" href="./image/android-chrome-192x192.png" type="image/x-icon">
+      <style>
+   ::-webkit-scrollbar {
+    display: fixed;
+    background-color : white;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background : #EBEBEB;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background : #D6D6D6;
+}
+
+
+      </style>
    </head>
    <body>
       <div class="kontainer container-fluid">
