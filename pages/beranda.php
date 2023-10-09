@@ -208,11 +208,15 @@
       <img src="assets\image\Berita_Kajur.png" alt="gambar">
    </div>
 </div>
+
+
+
+
 <!-- ============================= Berita Terkini ============================= -->
 <div class="berita-terkini container mt-5">
    <div class="dropdown">
       <button class="btn dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      BERITA TERKINI
+      Artikel
       </button>
       <ul class="dropdown-menu">
          <li><a class="dropdown-item" href="info-beasiswa.html"><i class="fa-solid fa-graduation-cap"></i>Info Beasiswa</a></li>
@@ -257,64 +261,14 @@
          ?>
    </div>
 </div>
-<div class="kegiatan-terkini container">
-   <div class="atas mt-5 d-flex justify-content-between">
-      <p class="fw-bold">KEGIATAN TERKINI</p>
-      <a href="kegiatan.html" class="text-secondary" style="text-decoration: underline;">Selengkapnya..</a>
-   </div>
-   <div class="kegiatan row row-cols-1 row-cols-md-4 g-4">
-      <div class="col">
-         <div class="card">
-            <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-               <h5 class="card-title">Company Visit</h5>
-               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               <div class="tombol">
-                  <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="col">
-         <div class="card">
-            <img src="./assets/image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama">
-            <div class="card-body">
-               <h5 class="card-title">Card title</h5>
-               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               <div class="tombol">
-                  <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="col">
-         <div class="card">
-            <img src="./assets/image/IMG_1075.png" class="card-img-top" alt="gambar bersama">
-            <div class="card-body">
-               <h5 class="card-title">Card title</h5>
-               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               <div class="tombol">
-                  <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="col">
-         <div class="card">
-            <img src="./assets/image/IMG_4846 1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-               <h5 class="card-title">Card title</h5>
-               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               <div class="tombol">
-                  <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
+
+<!-- <div class="kegiatan-terkini container"> <div class="atas mt-5 d-flex justify-content-between"> <p class="fw-bold">KEGIATAN TERKINI</p> <a href="kegiatan.html" class="text-secondary" style="text-decoration: underline;">Selengkapnya..</a> </div> <div class="kegiatan row row-cols-1 row-cols-md-4 g-4"> <div class="col"> <div class="card"> <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="..."> <div class="card-body"> <h5 class="card-title">Company Visit</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama"> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/IMG_1075.png" class="card-img-top" alt="gambar bersama"> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/IMG_4846 1.png" class="card-img-top" alt="..."> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> </div> </div> -->
+
+
+
+<!-- pengurussssssssssssss -->
 <div class="pengurus container">
-   <p class="text-center fw-bold mt-5 fs-5">PENGURUS HMJ-SI</p>
+   <p class="text-center fw-bold mt-5 fs-5">PENGURUS HMJ-SI Periode 2022-2023</p>
    <div class="container">
       <div class="big-3 container">
          <div class="row row-cols-1 row-cols-md-4 row-cols-sm-4 g-4 m-auto">
