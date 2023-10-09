@@ -2,10 +2,9 @@
 <div class="kotakAtas container-fluid">
    <style>
       .kotakAtas {
-         background-image: url('assets/image/Bg_hero.png');
-
-         padding :0px;
-         background-color :white;
+      background-image: url('assets/image/Bg_hero.png');
+      padding :0px;
+      background-color :white;
       }
       .judul {
       justify-content: center;
@@ -66,155 +65,149 @@
       </div>
    </div>
 </div>
-
-
-
 <!-- tentang (kenali kami lebih lanjut) -->
 <div class='tentang d-flex gap-3 '>
    <style>
       .tentang{
-         margin-top:60px;
-         margin-bottom:60px;
-         display: flex!important;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: space-between;
-    justify-content: space-around;
-    flex-direction: row;
-      }
-   .tt {
-      font-size: 18.81px;
-font-family: "Montserrat";
-font-weight: 600;
-color: rgba(6, 21, 35, 1);
-width: 100px;
-height: 23px;
-   }
-.ls {
-   font-size: 13.11px;
-font-family: "Montserrat";
-font-weight: 500;
-color: rgba(6, 21, 35, 1);
-width: 379.17px;
-height: 85px;
-}
+      color: #1E357D;
 
-#knli{
-   background-image: url('assets\image\tm.png');
-     font-size: 14.11px;
-    font-family: "Montserrat";
-    font-weight: 600;
-    color: rgba(77, 77, 77, 1);
-    height: 17px;
-   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-   width: 213px;
-   height: 33px;
-   transition: transform 0.3s;
-}
-#knli:hover{
-   border-color : #1E357D;
-   color: #1E357D;
-   transform: scale(1.1);
-   background-color : white;
-}
+      margin-top:60px;
+      margin-bottom:60px;
+      display: flex!important;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: space-between;
+      justify-content: space-around;
+      flex-direction: row;
+      }
+      .tt {
+      font-size: 18.81px;
+      font-family: "Montserrat";
+      font-weight: 600;
+      width: 100px;
+      height: 23px;
+      }
+      .ls {
+      font-size: 13.11px;
+      font-family: "Montserrat";
+      font-weight: 500;
+      width: 720px;
+      }
+      #knli{
+      background-image: url('assets\image\tm.png');
+      font-size: 14.11px;
+      font-family: "Montserrat";
+      font-weight: 600;
+      color: rgba(77, 77, 77, 1);
+      height: 17px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 213px;
+      height: 33px;
+      transition: transform 0.3s;
+      }
+      #knli:hover{
+      border-color : #1E357D;
+      color: #1E357D;
+      transform: scale(1.1);
+      background-color : white;
+      }
    </style>
    <div style="flex-direction: column;" class="d-flex gap-3">
       <div >
          <p class="tt">Tentang</p>
       </div>
       <div>
-         <p class="ls">Lorem ipsum dolor sit amet consectetur. Dis mattis pretium ut semper augue nunc aliquam augue. Lectus arcu cursus aenean egestas. Eget amet eget tortor dolor ac. </p>
+         <p class="ls"> Himpunan Mahasiswa Jurusan Sistem Informasi adalah suatu wadah yang menampung mahasiswa Sistem Informasi yang mengatur jalannya roda organisasi yang dihimpun dalam anggaran dasar dan anggaran rumah tangga untuk menciptakan suasanan kehidupan organisasi yang kondusif dan dinamis</p>
       </div>
       <button id="knli"class = "btn btn-outline-secondary">
-         Kenali Kami Lebih Lanjut
-</button>   
+      Kenali Kami Lebih Lanjut
+      </button>   
    </div>
    <div>
       <img src="assets\image\Group 2007.png" alt="">
    </div>
 </div>
-
-
 <!-- =========================== visimisi ================================ -->
 <style>
    #visimisi{
-       margin-top: 0px;
-    margin-bottom: 0px;
-    display: flex!important;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: space-between;
-    justify-content: space-between;
-    flex-direction: row;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   display: flex!important;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: space-between;
+   justify-content: space-between;
+   flex-direction: row;
    }
    #visimisi img{
-    width: 670px;
+   width: 670px;
    }
    #vss{
-      margin-left: 0px;
-    flex-direction: column;
-    margin-right: 230‒;
-    margin-right: 230px;
+   margin-left: 0px;
+   flex-direction: column;
+   margin-right: 230‒;
+   margin-right: 160px;
    }
-   
-   
 </style>
-
 <div id="visimisi" class='tentang d-flex gap-3 '>
    <div>
       <img src="assets\image\Visi_Misi.png" alt="">
    </div>
    <div id="vss"  style="flex-direction: column;" class="d-flex gap-3">
       <div >
-         <p class="tt">VIsi Misi</p>
+         <p class="tt">Visi</p>
       </div>
       <div>
-         <p class="ls">Lorem ipsum dolor sit amet consectetur. Dis mattis pretium ut semper augue nunc aliquam augue. Lectus arcu cursus aenean egestas. Eget amet eget tortor dolor ac. </p>
-         </div>
-   
+         <p class="ls">Mewujudkan HMJ-SI yang adaptif, atraktif dan solutif, serta mampu menjadi wadah pemersatu, penampung aspirasi dan pengembangan diri mahasiswa Sistem Informasi yang berlandaskan kekeluargaan.</p>
       </div>
-      
+      <div >
+         <p class="tt">Misi</p>
+      </div>
+      <div>
+         <ol class="ls">
+          <li>Menumbuhkan rasa kekeluargaan dan solidaritas yang tinggi di dalam internal HMJ-SI.</li>
+          <li>Mewujudkan anggota HMJ-SI yang aktif, inspiratif dan bertanggung jawab terhadap roda kepengurusan.</li>
+          <li>Menjalin hubungan dan kerjasama atas dasar kekeluargaan dengan organisasi di dalam atau di luar HMJ-SI.</li>
+          <li>Menjunjung tinggi profesionalitas demi terciptanya ruang kreativitas yang nyaman.</li>
+         </ol>
+      </div>
    </div>
+</div>
+</div>
 <!-- =========================== Highlight ================================ -->
-
 <style>
-.hailaig{
+   .hailaig{
    color: #1E357D;
-   background-color: #e9e9e9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    height: 617px;
-    text-align: center;
-}
-.hailaig img{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: nowrap;
+   align-content: center;
+   justify-content: center;
+   height: 617px;
+   text-align: center;
+   }
+   .hailaig img{
    box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.25);
-border-radius: 30px;
+   border-radius: 30px;
    width: 900px;
-   
-}
-.susunan{
+   }
+   .susunan{
    display: flex!important;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-   
-}
-
-
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   }
 </style>
 <div class="hailaig gap-3">
    <h2>Info Penting</h2>
    <div class="susunan d-flex gap-3">
       <img src="assets\image\Berita_Kajur.png" alt="gambar">
-   </div>      
+   </div>
 </div>
-
 <!-- ============================= Berita Terkini ============================= -->
 <div class="berita-terkini container mt-5">
    <div class="dropdown">
