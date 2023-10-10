@@ -76,7 +76,7 @@
 
          .judul {
             margin-top: 20px;
-            display: flex;
+            display: block;
          }
 
          .judul .hero_title {
@@ -114,9 +114,9 @@
             UIN Alauddin Makassar
          </p>
       </div>
-   </div>
-   <div class="gambar-hero">
-      <img id="hero_1" class="hero_1" src="assets\image\Hero-1.png" alt="tes">
+      <div class="gambar-hero">
+         <img id="hero_1" class="hero_1" src="assets\image\Hero-1.png" alt="tes">
+      </div>
    </div>
 </div>
 <!-- tentang (kenali kami lebih lanjut) -->
@@ -224,7 +224,7 @@
 
    @media (max-width: 768px) {
       .visi-misi {
-         margin-left: -185px;
+         margin-left: -195px;
       }
 
       .visi-misi img {
