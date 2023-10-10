@@ -56,7 +56,7 @@
       @media (max-width: 768px) {
 
          /* Styles for devices with a maximum width of 768px (e.g., mobile devices) */
-         .judul {
+         /* .judul {
             margin-top: 30px;
             display: flex;
 
@@ -72,26 +72,51 @@
             margin-top: -100px;
             position: absolute;
             text-align: center;
+         } */
+
+         .judul {
+            margin-top: 20px;
+            display: flex;
          }
+
+         .judul .hero_title {
+            text-align: center;
+         }
+
+         .gambar-hero img {
+            align-items: center;
+            margin-top: -30px;
+            width: 400px;
+         }
+
+         .judul .hero_title_1 {
+            font-size: 20px;
+         }
+
+         .judul .hero_title_2 {
+            font-size: 40px;
+         }
+
+         .judul .hero_title_3 {
+            font-size: 20px;
+         }
+
       }
    </style>
    <div class="judul">
-      <div>
-         <div class="hero_title">
-            <p class="hero_title_1">
-               Himpunan Mahasiswa Jurusan
-            </p>
-            <p class="hero_title_2">
-               Sistem Informasi
-               </span>
-            <p class="hero_title_3">
-               UIN Alauddin Makassar
-            </p>
-         </div>
+      <div class="hero_title">
+         <p class="hero_title_1">
+            Himpunan Mahasiswa Jurusan
+         </p>
+         <p class="hero_title_2">
+            Sistem Informasi
+         <p class="hero_title_3">
+            UIN Alauddin Makassar
+         </p>
       </div>
-      <div>
-         <img id="hero_1" class="hero_1" src="assets\image\Hero-1.png" alt="tes">
-      </div>
+   </div>
+   <div class="gambar-hero">
+      <img id="hero_1" class="hero_1" src="assets\image\Hero-1.png" alt="tes">
    </div>
 </div>
 <!-- tentang (kenali kami lebih lanjut) -->
@@ -148,23 +173,23 @@
          .tentang {
             display: flex;
             text-align: center;
-            flex-direction: column-reverse;
+            flex-direction: column;
          }
 
          .tt {
-            margin-top: -290px;
+            font-weight: bold;
+            margin-top: 40px;
             font-size: 28px;
          }
 
          .gambar-logo img {
             order: 1;
-            width: 300px;
+            width: 250px;
             margin: auto;
          }
 
          .ls {
             font-size: 16px;
-            margin-top: -50px;
          }
 
 
@@ -199,34 +224,40 @@
 
    @media (max-width: 768px) {
       .visi-misi {
-         margin-top: 70px;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
+         margin-left: -185px;
       }
 
       .visi-misi img {
          width: 300px;
+         height: 350px;
          margin: auto;
       }
 
       .isi-visi-misi {
-         margin-top: 20px;
-         flex-direction: column;
+         width: 300px;
+         margin-left: 225px;
+         margin-top: -30px;
+         position: absolute;
+         display: block;
+
       }
 
-      .head-visi, .head-misi{
+      .head-visi,
+      .head-misi {
          font-size: 20px;
          font-weight: bold;
          text-align: center;
       }
 
-      .visi{
+      .visi {
+         font-size: 12px;
          text-align: center;
       }
 
-      .misi{
-         margin: auto;
+      .misi {
+         margin-left: 40px;
+         font-size: 12px;
+         text-align: center;
       }
 
 
@@ -236,7 +267,7 @@
    <div>
       <img src="assets\image\Visi_Misi.png" alt="">
    </div>
-   <div id="vss" class="isi-visi-misi d-flex gap-3">
+   <div id="vss" class="isi-visi-misi">
       <div class="visi">
          <p class="head-visi">Visi</p>
          <p>Mewujudkan HMJ-SI yang adaptif, atraktif dan solutif, serta mampu menjadi wadah pemersatu, penampung aspirasi dan pengembangan diri mahasiswa Sistem Informasi yang berlandaskan kekeluargaan.</p>
@@ -281,12 +312,12 @@
       flex-direction: row;
    }
 
-   @media (max-width: 768px){
-      .hailaig{
+   @media (max-width: 768px) {
+      .hailaig {
          margin-top: -180px;
       }
 
-      .susunan img{
+      .susunan img {
          width: 350px;
          margin-top: 30px;
       }
@@ -323,8 +354,8 @@
                $shortText = substr($row["teks"], 0, $length) . "...";
             } else {
                $shortText = $row["teks"];
-            }  
-      ?> 
+            }
+      ?>
             <div class="col">
                <div class="card">
                   <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
