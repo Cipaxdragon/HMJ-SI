@@ -71,7 +71,6 @@ body {
 .kotakAtas {
   position: relative;
   padding: 30px;
-  background-color: ;
   /* border-radius: 20px; */
   
 }
@@ -393,6 +392,10 @@ footer .sosmed p a:hover {
   
   .card-kegiatan {
     margin-top: 30px;
+  }
+
+  .judul img{
+    width: 200px;
   }
 
 }

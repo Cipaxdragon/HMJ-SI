@@ -2,48 +2,77 @@
 <div class="kotakAtas container-fluid">
    <style>
       .kotakAtas {
-      background-image: url('assets/image/Bg_hero.png');
-      padding :0px;
-      background-color :white;
+         background-image: url('assets/image/Bg_hero.png');
+         padding: 0px;
+         background-color: white;
       }
+
       .judul {
-      justify-content: center;
-      align-items: center;
-      color : blue; 
-      display : flex;
+         justify-content: center;
+         align-items: center;
+         color: blue;
+         display: flex;
       }
-      .hero_title_1{
-      margin : 0px;
-      color: #1E357D;
-      font-family: Montserrat;
-      font-size: 28.023px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 100%; /* 28.023px */
-      letter-spacing: -1.962px;
+
+      .hero_title_1 {
+         margin: 0px;
+         color: #1E357D;
+         font-family: Montserrat;
+         font-size: 28.023px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 100%;
+         /* 28.023px */
+         letter-spacing: -1.962px;
       }
-      .hero_title_2{
-      margin : 0px;
-      color: #1E357D;
-      font-family: Montserrat;
-      font-size: 51.064px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 100%;
-      letter-spacing: -3.574px;
+
+      .hero_title_2 {
+         margin: 0px;
+         color: #1E357D;
+         font-family: Montserrat;
+         font-size: 51.064px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 100%;
+         letter-spacing: -3.574px;
       }
-      .hero_title_3{
-      margin : 0px;
-      color: #1E357D;
-      font-family: Montserrat;
-      font-size: 28.023px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 130%;
-      letter-spacing: -1.962px;
+
+      .hero_title_3 {
+         margin: 0px;
+         color: #1E357D;
+         font-family: Montserrat;
+         font-size: 28.023px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 130%;
+         letter-spacing: -1.962px;
       }
-      #hero_1{
-      width: 1060px;
+
+      .hero_1 {
+         width: 1060px;
+      }
+
+      /* responsive */
+      @media (max-width: 768px) {
+
+         /* Styles for devices with a maximum width of 768px (e.g., mobile devices) */
+         .judul {
+            margin-top: 30px;
+            display: flex;
+
+         }
+
+         .judul img {
+            align-items: center;
+            width: 360px;
+            opacity: 30%;
+         }
+
+         .judul .hero_title {
+            margin-top: -100px;
+            position: absolute;
+            text-align: center;
+         }
       }
    </style>
    <div class="judul">
@@ -53,7 +82,7 @@
                Himpunan Mahasiswa Jurusan
             </p>
             <p class="hero_title_2">
-               Sistem Informasi 
+               Sistem Informasi
                </span>
             <p class="hero_title_3">
                UIN Alauddin Makassar
@@ -61,107 +90,164 @@
          </div>
       </div>
       <div>
-         <img id="hero_1" src="assets\image\Hero-1.png" alt="tes">
+         <img id="hero_1" class="hero_1" src="assets\image\Hero-1.png" alt="tes">
       </div>
    </div>
 </div>
 <!-- tentang (kenali kami lebih lanjut) -->
-<div class='tentang d-flex '>
+<div class="container tentang d-flex">
    <style>
-      .tentang{
-      color: #1E357D;
+      .tentang {
+         color: #1E357D;
+         display: flex;
+         text-align: left;
+         align-items: center;
+      }
 
-      margin-top:60px;
-      margin-bottom:60px;
-      display: flex!important;
-      flex-wrap: wrap;
-      align-items: center;
-      align-content: space-between;
-      justify-content: space-around;
-      flex-direction: row;
-      }
       .tt {
-      font-size: 18.81px;
-      font-family: "Montserrat";
-      font-weight: 600;
-      width: 100px;
-      height: 23px;
+         font-size: 40px;
+         font-family: "Montserrat";
+         font-weight: 600;
+         height: 23px;
       }
+
       .ls {
-      font-size: 13.11px;
-      font-family: "Montserrat";
-      font-weight: 500;
-      width: 720px;
+         font-size: 18px;
+         font-family: "Montserrat";
+         font-weight: 500;
       }
-      #knli{
-      background-image: url('assets\image\tm.png');
-      font-size: 14.11px;
-      font-family: "Montserrat";
-      font-weight: 600;
-      color: rgba(77, 77, 77, 1);
-      height: 17px;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 213px;
-      height: 33px;
-      transition: transform 0.3s;
+
+      .gambar-logo img {
+         width: 600px;
+         margin-right: -100px;
       }
-      #knli:hover{
-      border-color : #1E357D;
-      color: #1E357D;
-      transform: scale(1.1);
-      background-color : white;
+
+      #knli {
+         background-image: url('assets\image\tm.png');
+         font-size: 14.11px;
+         font-family: "Montserrat";
+         font-weight: 600;
+         color: rgba(77, 77, 77, 1);
+         height: 17px;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         width: 213px;
+         height: 33px;
+         transition: transform 0.3s;
+      }
+
+      #knli:hover {
+         border-color: #1E357D;
+         color: #1E357D;
+         transform: scale(1.1);
+         background-color: white;
+      }
+
+      @media (max-width: 768px) {
+         .tentang {
+            display: flex;
+            text-align: center;
+            flex-direction: column-reverse;
+         }
+
+         .tt {
+            margin-top: -290px;
+            font-size: 28px;
+         }
+
+         .gambar-logo img {
+            order: 1;
+            width: 300px;
+            margin: auto;
+         }
+
+         .ls {
+            font-size: 16px;
+            margin-top: -50px;
+         }
+
+
       }
    </style>
-   <div style="flex-direction: column;" class="d-flex gap-3">
-      <div >
+   <div style="flex-direction: column;" class="tentang d-flex gap-3">
+      <div>
          <p class="tt">Tentang</p>
       </div>
       <div>
          <p class="ls"> Himpunan Mahasiswa Jurusan Sistem Informasi adalah suatu wadah yang menampung mahasiswa Sistem Informasi yang mengatur jalannya roda organisasi yang dihimpun dalam anggaran dasar dan anggaran rumah tangga untuk menciptakan suasanan kehidupan organisasi yang kondusif dan dinamis</p>
       </div>
-      <button id="knli"class = "btn btn-outline-secondary">
-      Kenali Kami Lebih Lanjut
-      </button>   
+      <button id="knli" class="btn btn-outline-secondary">
+         Kenali Kami Lebih Lanjut
+      </button>
    </div>
-   <div>
-      <img src="assets\image\Group 2007.png" alt="">
+   <div class="gambar-logo">
+      <img src="assets\image\Group 2007.png" alt="logo-hmj-si">
    </div>
 </div>
 <!-- =========================== visimisi ================================ -->
 <style>
-   .tentang{
+   .visi-misi {
       display: flex;
       margin-top: 0;
       /* justify-content: space-between ; */
    }
 
-   .tentang img{
+   .visi-misi img {
       width: 600px;
    }
 
+   @media (max-width: 768px) {
+      .visi-misi {
+         margin-top: 70px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+
+      .visi-misi img {
+         width: 300px;
+         margin: auto;
+      }
+
+      .isi-visi-misi {
+         margin-top: 20px;
+         flex-direction: column;
+      }
+
+      .head-visi, .head-misi{
+         font-size: 20px;
+         font-weight: bold;
+         text-align: center;
+      }
+
+      .visi{
+         text-align: center;
+      }
+
+      .misi{
+         margin: auto;
+      }
+
+
+   }
 </style>
-<div id="visimisi" class='tentang d-flex gap-3 '>
+<div id="visimisi" class="visi-misi d-flex">
    <div>
       <img src="assets\image\Visi_Misi.png" alt="">
    </div>
-   <div id="vss"  style="flex-direction: column;" class="d-flex gap-3">
-      <div >
-         <p class="tt">Visi</p>
+   <div id="vss" class="isi-visi-misi d-flex gap-3">
+      <div class="visi">
+         <p class="head-visi">Visi</p>
+         <p>Mewujudkan HMJ-SI yang adaptif, atraktif dan solutif, serta mampu menjadi wadah pemersatu, penampung aspirasi dan pengembangan diri mahasiswa Sistem Informasi yang berlandaskan kekeluargaan.</p>
       </div>
-      <div>
-         <p class="ls">Mewujudkan HMJ-SI yang adaptif, atraktif dan solutif, serta mampu menjadi wadah pemersatu, penampung aspirasi dan pengembangan diri mahasiswa Sistem Informasi yang berlandaskan kekeluargaan.</p>
-      </div>
-      <div >
-         <p class="tt">Misi</p>
-      </div>
-      <div>
-         <ol class="ls">
-          <li>Menumbuhkan rasa kekeluargaan dan solidaritas yang tinggi di dalam internal HMJ-SI.</li>
-          <li>Mewujudkan anggota HMJ-SI yang aktif, inspiratif dan bertanggung jawab terhadap roda kepengurusan.</li>
-          <li>Menjalin hubungan dan kerjasama atas dasar kekeluargaan dengan organisasi di dalam atau di luar HMJ-SI.</li>
-          <li>Menjunjung tinggi profesionalitas demi terciptanya ruang kreativitas yang nyaman.</li>
+      <div class="misi container">
+         <p class="head-misi">Misi</p>
+         <ol>
+            <li>Menumbuhkan rasa kekeluargaan dan solidaritas yang tinggi di dalam internal HMJ-SI.</li>
+            <li>Mewujudkan anggota HMJ-SI yang aktif, inspiratif dan bertanggung jawab terhadap roda kepengurusan.</li>
+            <li>Menjalin hubungan dan kerjasama atas dasar kekeluargaan dengan organisasi di dalam atau di luar HMJ-SI.</li>
+            <li>Menjunjung tinggi profesionalitas demi terciptanya ruang kreativitas yang nyaman.</li>
          </ol>
       </div>
    </div>
@@ -169,33 +255,46 @@
 </div>
 <!-- =========================== Highlight ================================ -->
 <style>
-   .hailaig{
-   color: #1E357D;
-   background-color: white;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   flex-wrap: nowrap;
-   align-content: center;
-   justify-content: center;
-   height: 617px;
-   text-align: center;
+   .hailaig {
+      color: #1E357D;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      height: 617px;
+      text-align: center;
    }
-   .hailaig img{
-   box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.25);
-   border-radius: 30px;
-   width: 900px;
+
+   .hailaig img {
+      box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+      width: 900px;
    }
-   .susunan{
-   display: flex!important;
-   justify-content: center;
-   align-items: center;
-   flex-direction: row;
+
+   .susunan {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+   }
+
+   @media (max-width: 768px){
+      .hailaig{
+         margin-top: -180px;
+      }
+
+      .susunan img{
+         width: 350px;
+         margin-top: 30px;
+      }
    }
 </style>
-<div class="hailaig gap-3">
+<div class="hailaig">
    <h2>Info Penting</h2>
-   <div class="susunan d-flex gap-3">
+   <div class="susunan d-flex">
       <img src="assets\image\Berita_Kajur.png" alt="gambar">
    </div>
 </div>
@@ -204,52 +303,45 @@
 
 
 <!-- ============================= Berita Terkini ============================= -->
-<div class="berita-terkini container mt-5">
-   <div class="dropdown">
-      <button class="btn dropdown-toggle fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Artikel
-      </button>
-      <ul class="dropdown-menu">
-         <li><a class="dropdown-item" href="info-beasiswa.html"><i class="fa-solid fa-graduation-cap"></i>Info Beasiswa</a></li>
-         <li><a class="dropdown-item" href="info-pendaftaran.html"><i class="fa-solid fa-building-columns"></i> Info Pendaftaran</a></li>
-         <li><a class="dropdown-item" href="pengumuman.html"><i class="fa-solid fa-circle-exclamation"></i></i> Info Pengumuman</a></li>
-      </ul>
+<div class="berita-terkini container">
+   <div class="header-kegiatan">
+      <h4>Kegiatan</h4>
    </div>
    <div class="berita row row-cols-1 row-cols-md-4 g-4">
       <?php
-         $count = 0; // Variabel penanda jumlah card yang sudah ditampilkan
-         
-         if ($result->num_rows > 0) {
-             while ($row = $result->fetch_assoc()) {
-                 if ($count >= 4) {
-                     break; // Keluar dari loop setelah 4 card ditampilkan
-                 }
-         
-                 $length = 100; // Panjang maksimal teks yang ingin ditampilkan
-         
-                 if (strlen($row["teks"]) > $length) {
-                     $shortText = substr($row["teks"], 0, $length) . "...";
-                 } else {
-                     $shortText = $row["teks"];
-                 }
-         ?>
-      <div class="col">
-         <div class="card">
-            <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-               <h5 class="card-title"><?php echo $row["judul"]; ?> </h5>
-               <p class="card-text"><?php echo $shortText; ?></p>
-               <div class="tombol">
-                  <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
+      $count = 0; // Variabel penanda jumlah card yang sudah ditampilkan
+
+      if ($result->num_rows > 0) {
+         while ($row = $result->fetch_assoc()) {
+            if ($count >= 4) {
+               break; // Keluar dari loop setelah 4 card ditampilkan
+            }
+
+            $length = 100; // Panjang maksimal teks yang ingin ditampilkan
+
+            if (strlen($row["teks"]) > $length) {
+               $shortText = substr($row["teks"], 0, $length) . "...";
+            } else {
+               $shortText = $row["teks"];
+            }  
+      ?> 
+            <div class="col">
+               <div class="card">
+                  <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title"><?php echo $row["judul"]; ?> </h5>
+                     <p class="card-text"><?php echo $shortText; ?></p>
+                     <div class="tombol">
+                        <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
+                     </div>
+                  </div>
                </div>
             </div>
-         </div>
-      </div>
       <?php
-         $count++; // Increment variabel penanda jumlah card yang sudah ditampilkan
+            $count++; // Increment variabel penanda jumlah card yang sudah ditampilkan
          }
-         }
-         ?>
+      }
+      ?>
    </div>
 </div>
 
