@@ -75,6 +75,7 @@
          } */
 
          .judul {
+            align-items: center;
             margin-top: 20px;
             display: block;
          }
@@ -83,10 +84,14 @@
             text-align: center;
          }
 
-         .gambar-hero img {
+         .judul .gambar-hero{
+            width: 360px;
+            margin: auto;
+         }
+         .judul .gambar-hero img {
             align-items: center;
             margin-top: -30px;
-            width: 400px;
+            width: 360px;
          }
 
          .judul .hero_title_1 {
