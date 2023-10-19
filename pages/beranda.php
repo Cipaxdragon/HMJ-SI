@@ -126,93 +126,94 @@
    </div>
 </div>
 <!-- tentang (kenali kami lebih lanjut) -->
-   <style>
-      .container{
-         flex-direction:row;
-      }
-      .tentang {
-         color: #1E357D;
-         flex-direction: column;
-         /* display: flex; */
-         /* text-align: left; */
-         /* align-items: center; */
-         margin: auto;
-         font-size: 20px;
-         width: 100%;
+<style>
+   .container {
+      flex-direction: row;
+   }
 
+   .tentang {
+      color: #1E357D;
+      flex-direction: column;
+      /* display: flex; */
+      /* text-align: left; */
+      /* align-items: center; */
+      margin: auto;
+      font-size: 20px;
+      width: 100%;
+
+   }
+
+   .tt {
+      /* font-size: 40px; */
+      font-family: "Montserrat";
+      font-weight: 600;
+      height: 23px;
+   }
+
+   .ls {
+      font-size: 16px;
+      font-family: "Montserrat";
+      font-weight: 500;
+      width: 80%;
+   }
+
+   .gambar-logo img {
+      width: 400px;
+      margin-right: -80px;
+   }
+
+   #knli {
+      background-image: url('assets\image\tm.png');
+      font-size: 14.11px;
+      font-family: "Montserrat";
+      font-weight: 600;
+      color: rgba(77, 77, 77, 1);
+      height: 17px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 213px;
+      height: 33px;
+      transition: transform 0.3s;
+   }
+
+   #knli:hover {
+      border-color: #1E357D;
+      color: #1E357D;
+      transform: scale(1.1);
+      background-color: white;
+   }
+
+   @media (max-width: 768px) {
+      .tentang {
+         display: flex;
+         text-align: center;
+         flex-direction: column;
       }
 
       .tt {
-         /* font-size: 40px; */
-         font-family: "Montserrat";
-         font-weight: 600;
-         height: 23px;
+         font-weight: bold;
+         margin-top: 40px;
+         font-size: 28px;
+      }
+
+      .gambar-logo img {
+         order: 1;
+         width: 250px;
+         margin: auto;
       }
 
       .ls {
          font-size: 16px;
-         font-family: "Montserrat";
-         font-weight: 500;
-         width: 80%;
       }
 
-      .gambar-logo img {
-         width: 400px;
-         margin-right: -80px;
-      }
 
-      #knli {
-         background-image: url('assets\image\tm.png');
-         font-size: 14.11px;
-         font-family: "Montserrat";
-         font-weight: 600;
-         color: rgba(77, 77, 77, 1);
-         height: 17px;
-         background-size: cover;
-         background-position: center;
-         background-repeat: no-repeat;
-         width: 213px;
-         height: 33px;
-         transition: transform 0.3s;
-      }
-
-      #knli:hover {
-         border-color: #1E357D;
-         color: #1E357D;
-         transform: scale(1.1);
-         background-color: white;
-      }
-
-      @media (max-width: 768px) {
-         .tentang {
-            display: flex;
-            text-align: center;
-            flex-direction: column;
-         }
-
-         .tt {
-            font-weight: bold;
-            margin-top: 40px;
-            font-size: 28px;
-         }
-
-         .gambar-logo img {
-            order: 1;
-            width: 250px;
-            margin: auto;
-         }
-
-         .ls {
-            font-size: 16px;
-         }
-
-
-      }
-   </style>
+   }
+</style>
 <div class="container d-flex">
    <div class="tentang d-flex gap-3">
-         <p class="tt">Tentang</p>
-         <p class="ls"> Himpunan Mahasiswa Jurusan Sistem Informasi adalah suatu wadah yang menampung mahasiswa Sistem Informasi yang mengatur jalannya roda organisasi yang dihimpun dalam anggaran dasar dan anggaran rumah tangga untuk menciptakan suasanan kehidupan organisasi yang kondusif dan dinamis</p>
+      <p class="tt">Tentang</p>
+      <p class="ls"> Himpunan Mahasiswa Jurusan Sistem Informasi adalah suatu wadah yang menampung mahasiswa Sistem Informasi yang mengatur jalannya roda organisasi yang dihimpun dalam anggaran dasar dan anggaran rumah tangga untuk menciptakan suasanan kehidupan organisasi yang kondusif dan dinamis</p>
       <button id="knli" class="btn btn-outline-secondary">
          Kenali Kami Lebih Lanjut
       </button>
@@ -378,6 +379,9 @@
 
 <!-- ============================= Berita Terkini ============================= -->
 <div class="berita-terkini container">
+   <!-- <div class="swiper-button-next swiper-navBtn"></div>
+   <div class="swiper-button-prev swiper-navBtn"></div>
+   <div class="swiper-pagination"></div>   -->
    <div class="header-kegiatan">
       <h4>Kegiatan</h4>
    </div>
@@ -635,77 +639,10 @@
                   <button class="button">View More</button>
                </div>
             </div>
-            <div class="card swiper-slide">
-               <div class="image-content">
-                  <span class="overlay"></span>
-                  <div class="card-image">
-                     <img src="assets\image\IMG_1075.png" alt="" class="card-img">
-                  </div>
-               </div>
-               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <button class="button">View More</button>
-               </div>
-            </div>
-            <div class="card swiper-slide">
-               <div class="image-content">
-                  <span class="overlay"></span>
-                  <div class="card-image">
-                     <img src="assets\image\IMG_1075.png" alt="" class="card-img">
-                  </div>
-               </div>
-               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <button class="button">View More</button>
-               </div>
-            </div>
-            <div class="card swiper-slide">
-               <div class="image-content">
-                  <span class="overlay"></span>
-                  <div class="card-image">
-                     <img src="assets\image\IMG_1075.png" alt="" class="card-img">
-                  </div>
-               </div>
-               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <button class="button">View More</button>
-               </div>
-            </div>
-            <div class="card swiper-slide">
-               <div class="image-content">
-                  <span class="overlay"></span>
-                  <div class="card-image">
-                     <img src="assets\image\IMG_1075.png" alt="" class="card-img">
-                  </div>
-               </div>
-               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <button class="button">View More</button>
-               </div>
-            </div>
-            <div class="card swiper-slide">
-               <div class="image-content">
-                  <span class="overlay"></span>
-                  <div class="card-image">
-                     <img src="assets\image\IMG_1075.png" alt="" class="card-img">
-                  </div>
-               </div>
-               <div class="card-content">
-                  <h2 class="name">David Dell</h2>
-                  <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-                  <button class="button">View More</button>
-               </div>
-            </div>
-            <div class="swiper-button-next swiper-navBtn"></div>
-            <div class="swiper-button-prev swiper-navBtn"></div>
-            <div class="swiper-pagination"></div>
          </div>
       </div>
    </div>
+</div>
 
 
    <!-- <div class="kegiatan-terkini container"> <div class="atas mt-5 d-flex justify-content-between"> <p class="fw-bold">KEGIATAN TERKINI</p> <a href="kegiatan.html" class="text-secondary" style="text-decoration: underline;">Selengkapnya..</a> </div> <div class="kegiatan row row-cols-1 row-cols-md-4 g-4"> <div class="col"> <div class="card"> <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="..."> <div class="card-body"> <h5 class="card-title">Company Visit</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama"> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/IMG_1075.png" class="card-img-top" alt="gambar bersama"> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/IMG_4846 1.png" class="card-img-top" alt="..."> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> </div> </div> -->
