@@ -22,8 +22,8 @@
     case 'kontak':
       include_once "pages/kontak.php";
       break;
-    case 'kegiatan':
-      include_once "pages/kegiatan.php";
+    case 'artikel':
+      include_once "pages/artikel.php";
       break;
   
     default:

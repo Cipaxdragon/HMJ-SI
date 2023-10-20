@@ -43,10 +43,10 @@
                      <a class="nav-link fw-bold" href="index.php?page=beranda">Beranda</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=kegiatan">Pengumuman</a>
+                     <a class="nav-link fw-bold" href="index.php?page=artikel">Artikel</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=tentang">Artikel</a>
+                     <a class="nav-link fw-bold" href="index.php?page=tentang">Pengurus</a>
                   </li>
                   <li id="peding" class="nav-item">
                      <a class="nav-link fw-bold" href="index.php?page=kontak">Tentang Kami</a>

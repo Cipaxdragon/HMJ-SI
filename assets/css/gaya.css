@@ -37,9 +37,6 @@
 }
 
 
-
-
-
 .kotakAtas {
   background-image: url('../../assets/image/Bg_hero.png');
   padding: 0px;
@@ -47,10 +44,11 @@
 }
 
 .judul {
+  display: flex;
   justify-content: center;
   align-items: center;
-  color: blue;
-  display: flex;
+  color: #1E357D;
+  flex-direction: row;
 }
 
 .hero_title_1 {
@@ -868,3 +866,49 @@ footer .sosmed p a:hover {
            display: none;
         }
      }
+
+
+
+
+     /* artikel */
+
+     .kotak-artikel{
+      display: flex;
+      height: 10rem;
+      padding: 0px 120px;
+      justify-content: space-between;
+      align-items: center;
+      gap: 78px;
+      border: solid 1px red;
+  }
+  .gambar-artikel{
+      display: flex;
+      overflow: hidden;
+      height: 100%;
+  }
+  .text-artikel{
+      color: rgba(0, 0, 0, 1);
+  
+     font-family: "Montserrat";
+  
+  }
+  .text-artikel .judul h3{
+      font-size: 24.46px;
+     font-weight: 600;
+     width: 306.1px;
+     height: 18.51px;
+  }
+  .text-artikel .tanggal {
+      font-size: 11.06px;
+     font-weight: 600;
+     width: 74.26px;
+     height: 18.51px;
+  }
+  .text-artikel .Penjelasan {
+      font-size: 10.07px;
+     font-weight: 400;
+     width: 955.28px;
+     height: 64.2px;
+  
+  }
+  
