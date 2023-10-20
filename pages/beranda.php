@@ -177,7 +177,7 @@
                <div class="image-content">
                   <span class="overlay"></span>
                   <div class="card-image">
-                     <img src="images/profile3.jpg" alt="" class="card-img">
+                     <img src="assets\image\IMG_1075.png" alt="" class="card-img">
                   </div>
                </div>
                <div class="card-content">
