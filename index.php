@@ -25,7 +25,9 @@
     case 'artikel':
       include_once "pages/artikel.php";
       break;
-  
+   case 'bacaan':
+      include_once "pages/bacaan.php";
+      break;
     default:
       include_once "pages/beranda.php";
       break;
