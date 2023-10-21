@@ -1,44 +1,109 @@
+    <footer class="mt-5">
+        <style>
+            footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border-radius: 0;
+                background-color: #1E357D;
+                color: #ffff;
+                padding: 20px 40px;
+            }
 
-      <footer class="mt-5">
-            <ul>
-                <li class="kontak">
-                    <h4>Kontak</h4>
-                    <hr>
-                    <!-- <p class="fw-bold">UNIVERSITAS ISLAM NEGERI ALAUDDIN MAKASSAR</p> -->
-                    <p>EMAIL : hmj.si@uin-alauddin.ac.id</p>
-                    <p>KONTAK : +62 859-6429-6474 (NUR FARID MUFID NR)</p>
-                    <p>SEKRETARIAT HMJ SI, FAKULTAS SAINS &amp; TEKNOLOGI</p>
-                </li>
-                <li class="sosmed">
-                    <h4>Sosial Media</h4>
-                    <hr>
-                    <div class="sosmed">
-                      <p><a href="https://www.instagram.com/hmjsi.uinam/"><i class="bi bi-instagram me-2"></i>hmjsi.uinam</a></p>
-                      <p><a href="https://twitter.com/hmjsi_uinam"><i class="bi bi-twitter me-2"></i>hmjsi_uinam</a></p>
-                      <p><a href="https://www.facebook.com/hmjsi.uinam"><i class="bi bi-facebook me-2"></i>HMJ Sistem Informasi UINAM</a></p>
-                      <p><a href="https://www.youtube.com/@hmjsisteminformasiuinam8821"><i class="bi bi-youtube me-2"></i>HMJ Sistem Informasi UINAM</a></p>
-                    </div>
-                </li>
-                <li class="tentang">
-                    <h4>Tentang HMJ SI</h4>
-                    <hr>
-                    <p>Organisasi Ini Bernama Himpunan Mahasiswa Jurusan
-                        Sistem Informasi Yang Di singkat HMJ SI. Berkedudukan Di Jalan. Yasin Limpo Samata Gowa Fakultas Sains Dan teknologi Universitas Alauddin Makassar.
-                        HMJ SI Didirikan Pada Tanggal 2 Januari 2013</p>
-                </li>
-                <li class="tautan">
-                    <h4>Tautan</h4>
-                    <hr>
-                    <p>UIN ALAUDDIN MAKASSAR
-                    JURUSAN SISTEM INFORMASI</p>
-                </li>
-            </ul>
-      </footer>
+            .hmj {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .hmj img {
+                width: 100px;
+                height: 120px;
+                border: 4px solid #fff;
+                margin-right: 30px;
+            }
+
+            .isi-footer {
+                font-size: 16px;
+                width: 400px;
+            }
+
+            .isi-footer p {
+                font-weight: 500;
+            }
+
+            .judul-icon-footer{
+                display: flex;
+                justify-content: end;
+            }
+
+            .icon-footer{
+                display: flex;
+                justify-content: end;
+                margin-top: -10px;
+            }
+
+            .icon-footer i{
+                margin-left: 10px;
+            }
+
+            .kontak-footer, .alamat-footer {
+                margin-top: 10px;
+                display: flex;
+                justify-content: end;
+            }
+
+            .isi-kontak-footer{
+                display: flex;
+                justify-content: end;
+                font-size: 12px;
+                flex-direction: column;
+            }
+
+            .email-footer, .wa-footer, .alamat-sekret{
+                display: flex;
+                justify-content: end;
+                margin-top: -10px;
+            }
+
+            .alamat-sekret{
+                text-align: right;
+                font-size: 12px;
+            }
+        </style>
+        <div class="hmj">
+            <img src="assets/image/logo hmjsi.png" alt="">
+            <div class="isi-footer-hmj">
+                <h1>Himpunan</h1>
+                <h4>Mahasiswa Jurusan</h4>
+                <h3>Sistem Informasi</h3>
+            </div>
+        </div>
+        <div class="isi-footer">
+            <p class="judul-icon-footer">Ikuti Kami Di Media Sosial</p>
+            <div class="icon-footer">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-globe"></i>
+                <i class="bi bi-tiktok"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+            <p class="kontak-footer">Kontak</p>
+            <div class="isi-kontak-footer">
+                <p class="email-footer">E-Mail : HMJ-SI@uin-alauddin.ac.id</p>
+                <p class="wa-footer">Whatsapp : 0852 5537 1231</p>
+            </div>
+            <p class="alamat-footer">Sekretariat HMJ-SI</p>
+            <div class="isi-alamat-footer">
+                <p class="alamat-sekret">Kampus 2 UIN Alauddin Makassar Romangpolong, Somba Opu, Kabupaten Gowa Sulawesi Selatan</p>
+            </div>
+        </div>
+    </footer>
     </div>
-      <!-- AKHIR FOOTER  -->
+    <!-- AKHIR FOOTER  -->
 
-<script src="assets\js\bootstrap.bundle.min.js"></script>
-<script src="https://kit.fontawesome.com/7cfefc34bd.js" crossorigin="anonymous"></script>
-</body>
+    <script src="assets\js\bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/7cfefc34bd.js" crossorigin="anonymous"></script>
+    </body>
 
-</html>
+    </html>
