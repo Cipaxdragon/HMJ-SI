@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<<<<<<< HEAD
-#kotakutama{
-   padding : 0px
-}
-
-      </style>
-   </head>
-   <body>
-      <div id="kotak_utama" class="kontainer container-fluid">
-      <nav id="napbar" class="navbar navbar-expand-lg " style="background-color: white;">
-         <div class="nav-con container d-flex justify-content-center-around ">
-=======
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,7 +40,6 @@
    <div>
       <nav id="napbar" class="navbar navbar-expand-lg" style="background-color: white;">
          <div class="nav-con container d-flex justify-content-center-around animate__animated animate__fadeInDown">
->>>>>>> 65ea8f24f406dc7272c5b92be69e099520950306
             <a href="index.html"><img class="logo-nav" src="./assets/image/logo hmjsi.png" alt="logo"></a>
             <a href="index.html" class="nama-nav fs-5" style="text-decoration: none; font-weight: 850;">SISFO UINAM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,10 +54,10 @@
                      <a class="nav-link fw-bold" href="index.php?page=artikel">Artikel</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=pengurus">Pengurus</a>
+                     <a class="nav-link fw-bold" href="index.php?page=tentang">Pengurus</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=tentang">Tentang Kami</a>
+                     <a class="nav-link fw-bold" href="index.php?page=kontak">Tentang Kami</a>
                   </li>
                   <li id="peding" class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
