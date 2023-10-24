@@ -35,35 +35,7 @@
       <img src="assets\image\Group 2007.png" alt="logo-hmj-si">
    </div>
 </div>
-<!-- =========================== visimisi ================================ -->
-<style>
-
-</style>
-<!-- <div id="visimisi" class="visi-misi d-flex">
-   <div>
-      <img src="assets\image\Visi_Misi.png" alt="">
-   </div>
-   <div id="vss" class="isi-visi-misi">
-      <div class="visi">
-         <p class="head-visi">Visi</p>
-         <p>Mewujudkan HMJ-SI yang adaptif, atraktif dan solutif, serta mampu menjadi wadah pemersatu, penampung aspirasi dan pengembangan diri mahasiswa Sistem Informasi yang berlandaskan kekeluargaan.</p>
-      </div>
-      <div class="misi container">
-         <p class="head-misi">Misi</p>
-         <ol>
-            <li>Menumbuhkan rasa kekeluargaan dan solidaritas yang tinggi di dalam internal HMJ-SI.</li>
-            <li>Mewujudkan anggota HMJ-SI yang aktif, inspiratif dan bertanggung jawab terhadap roda kepengurusan.</li>
-            <li>Menjalin hubungan dan kerjasama atas dasar kekeluargaan dengan organisasi di dalam atau di luar HMJ-SI.</li>
-            <li>Menjunjung tinggi profesionalitas demi terciptanya ruang kreativitas yang nyaman.</li>
-         </ol>
-      </div>
-   </div>
-</div>
-</div> -->
 <!-- =========================== Highlight ================================ -->
-<style>
-</style>
-
 <div class="hailaig container">
    <h2>Info Penting</h2>
    <!-- <div class="susunan d-flex">
@@ -140,9 +112,6 @@
    </div> -->
 
    <!-- css  card kegiatan-->
-   <style>
-
-   </style>
    <!-- akhir css kegiatan  -->
    <div class="slide-container">
       <div class="slide-content">
@@ -257,7 +226,7 @@
                         <div class="card-body">
                            <h5 class="nama card-title text-white fw-bold">IRMA SURIANI S</h5>
                            <hr>
-                           <p class="deskripsi card-text text-warning fw-bold">Bendahara Umum</p>
+                              <p class="deskripsi card-text text-warning fw-bold">Bendahara Umum</p>
                         </div>
                      </div>
                   </div>

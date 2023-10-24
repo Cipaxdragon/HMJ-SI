@@ -35,7 +35,7 @@
 </head>
 
 <body>
-   <div class="kontainer container-fluid">
+   <div>
       <nav id="napbar" class="navbar navbar-expand-lg " style="background-color: white;">
          <div class="nav-con container d-flex justify-content-center-around ">
             <a href="index.html"><img class="logo-nav" src="./assets/image/logo hmjsi.png" alt="logo"></a>
@@ -49,10 +49,10 @@
                      <a class="nav-link fw-bold" href="index.php?page=beranda">Beranda</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=kegiatan">Pengumuman</a>
+                     <a class="nav-link fw-bold" href="index.php?page=artikel">Artikel</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=tentang">Artikel</a>
+                     <a class="nav-link fw-bold" href="index.php?page=tentang">Pengurus</a>
                   </li>
                   <li id="peding" class="nav-item">
                      <a class="nav-link fw-bold" href="index.php?page=kontak">Tentang Kami</a>
