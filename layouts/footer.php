@@ -17,9 +17,10 @@
             }
 
             .hmj img {
-                width: 100px;
-                height: 120px;
+                width: 150px;
+                height: 150px;
                 border: 4px solid #fff;
+                border-radius: 100px;
                 margin-right: 30px;
             }
 
@@ -72,7 +73,7 @@
             }
         </style>
         <div class="hmj">
-            <img src="assets/image/logo hmjsi.png" alt="">
+            <img src="assets/image/logo-bundar.png" alt="">
             <div class="isi-footer-hmj">
                 <h1>Himpunan</h1>
                 <h4>Mahasiswa Jurusan</h4>

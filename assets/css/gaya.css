@@ -36,10 +36,6 @@
   }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8a70e5497248b77ab07bc7a0ba659ddd6285efda
 .kotakAtas {
   background-image: url('../../assets/image/Bg_hero.png');
   padding: 0px;
@@ -47,11 +43,10 @@
 }
 
 .judul {
-  display: flex;
   justify-content: center;
   align-items: center;
-  color: #1E357D;
-  flex-direction: row;
+  color: blue;
+  display: flex;
 }
 
 .hero_title_1 {
@@ -118,6 +113,7 @@
      align-items: center;
      margin-top: 20px;
      display: block;
+     --animate-delay: 0.5s;
   }
 
   .judul .hero_title {
@@ -234,56 +230,6 @@
 
 
 }
-.visi-misi {
-  display: flex;
-  margin-top: 0;
-  /* justify-content: space-between ; */
-}
-
-.visi-misi img {
-  width: 600px;
-}
-
-@media (max-width: 768px) {
-  .visi-misi {
-     margin-left: -195px;
-  }
-
-  .visi-misi img {
-     width: 300px;
-     height: 350px;
-     margin: auto;
-  }
-
-  .isi-visi-misi {
-     width: 300px;
-     margin-left: 225px;
-     margin-top: -30px;
-     position: absolute;
-     display: block;
-
-  }
-
-  .head-visi,
-  .head-misi {
-     font-size: 20px;
-     font-weight: bold;
-     text-align: center;
-  }
-
-  .visi {
-     font-size: 12px;
-     text-align: center;
-  }
-
-  .misi {
-     margin-left: 40px;
-     font-size: 12px;
-     text-align: center;
-  }
-
-
-}
 
 
 /*  */
@@ -312,48 +258,6 @@ body {
 .nama-nav {
   /* color: #1E357D; */
   color: #1E357D;
-}
-
-.searchbox {
-  position: relative;
-  width: 300px;
-  height: 40px;
-  /* border: 2px solid black; */
-  padding: 0px 10px;
-  border-radius: 50px;
-  /* background-color: #1E357D; */
-  background-color: #1E357D;
-}
-
-.contentSearch {
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
-}
-
-.Search {
-  /* background-color: #1E357D; */
-  background-color: #1E357D;
-  border: none;
-  height: 40%;
-  width: 100%;
-  padding: 0px 5px;
-  font-size: 18px;
-  color: #ffff;
-  font-weight: 500;
-}
-
-.Search:focus {
-  outline: none;
-}
-
-.ikon-cari {
-  font-size: 18px;
-  color: white;
-}
-
-::-webkit-input-placeholder {
-  color: white;
 }
 
 .kotakAtas {
@@ -412,6 +316,10 @@ footer {
 
 .presidium {
   display: inline-block;
+}
+
+.pengurus{
+  margin-top: 100px;
 }
 
 .pengurus .nama {
@@ -649,6 +557,9 @@ footer {
   text-align: center;
 }
 
+.header-kegitan{
+  text-align: center;
+}
 
 
 
@@ -824,48 +735,5 @@ footer {
         }
      }
 
-
-
-
-     /* artikel */
-
-     .kotak-artikel{
-      display: flex;
-      height: 10rem;
-      padding: 0px 120px;
-      justify-content: space-between;
-      align-items: center;
-      gap: 78px;
-      border: solid 1px red;
-  }
-  .gambar-artikel{
-      display: flex;
-      overflow: hidden;
-      height: 100%;
-  }
-  .text-artikel{
-      color: rgba(0, 0, 0, 1);
-  
-     font-family: "Montserrat";
-  
-  }
-  .text-artikel .judul h3{
-      font-size: 24.46px;
-     font-weight: 600;
-     width: 306.1px;
-     height: 18.51px;
-  }
-  .text-artikel .tanggal {
-      font-size: 11.06px;
-     font-weight: 600;
-     width: 74.26px;
-     height: 18.51px;
-  }
-  .text-artikel .Penjelasan {
-      font-size: 10.07px;
-     font-weight: 400;
-     width: 955.28px;
-     height: 64.2px;
-  
-  }
-  
+     /* galery */
+    

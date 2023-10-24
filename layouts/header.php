@@ -1,31 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="assets\css\gaya.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-      <link rel="stylesheet" href="assets\css\bootstrap.css">
-      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-      <script src="assets\js\bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-      <title>SISFO UINAM</title>
-      <link rel="shortcut icon" href="./image/android-chrome-192x192.png" type="image/x-icon">
-      <style>
-   ::-webkit-scrollbar {
-    display: fixed;
-    background-color : white;
-    width: 7px;
-}
-::-webkit-scrollbar-thumb {
-  background : #EBEBEB;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background : #D6D6D6;
-}
 
+<<<<<<< HEAD
 #kotakutama{
    padding : 0px
 }
@@ -36,10 +12,51 @@
       <div id="kotak_utama" class="kontainer container-fluid">
       <nav id="napbar" class="navbar navbar-expand-lg " style="background-color: white;">
          <div class="nav-con container d-flex justify-content-center-around ">
+=======
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets\css\gaya.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="assets\css\bootstrap.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <script src="assets\js\bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'></script>
+   <title>SISFO UINAM</title>
+   <link rel="shortcut icon" href="./image/android-chrome-192x192.png" type="image/x-icon">
+   <style>
+      ::-webkit-scrollbar {
+         display: fixed;
+         background-color: white;
+         width: 7px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+         background: #EBEBEB;
+         border-radius: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+         background: #D6D6D6;
+      }
+   </style>
+</head>
+
+<body>
+   <div>
+      <nav id="napbar" class="navbar navbar-expand-lg" style="background-color: white;">
+         <div class="nav-con container d-flex justify-content-center-around animate__animated animate__fadeInDown">
+>>>>>>> 65ea8f24f406dc7272c5b92be69e099520950306
             <a href="index.html"><img class="logo-nav" src="./assets/image/logo hmjsi.png" alt="logo"></a>
             <a href="index.html" class="nama-nav fs-5" style="text-decoration: none; font-weight: 850;">SISFO UINAM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
                <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
@@ -57,7 +74,7 @@
                   </li>
                   <li id="peding" class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Lainnya
+                        Lainnya
                      </a>
                      <ul id="peding" class="dropdown-menu">
                         <li><a class="dropdown-item" href="index.php?page=beasiswa"><i class="fa-solid fa-graduation-cap"></i>Galeri</a></li>
@@ -69,4 +86,3 @@
             </div>
          </div>
       </nav>
-

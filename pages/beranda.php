@@ -4,16 +4,7 @@
 ?>
 <!-- kotak  hero image -->
 <div class="kotakAtas container-fluid">
-   <style>
-      #hero_welcome {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         color: #1E357D;
-         flex-direction: row;
-      }
-   </style>
-   <div id="hero_welcome">
+   <div class="judul animate__animated animate__fadeInUp">
       <div class="hero_title">
          <p class="hero_title_1">
             Himpunan Mahasiswa Jurusan
@@ -34,46 +25,18 @@
 
 </style>
 <div id="b-tentang" class="container d-flex">
-   <div class="tentang d-flex gap-3">
+   <div class="tentang d-flex gap-3" data-aos="fade-up" data-aos-duration="1000">
       <p class="tt">Tentang</p>
       <p class="ls"> Himpunan Mahasiswa Jurusan Sistem Informasi adalah suatu wadah yang menampung mahasiswa Sistem Informasi yang mengatur jalannya roda organisasi yang dihimpun dalam anggaran dasar dan anggaran rumah tangga untuk menciptakan suasanan kehidupan organisasi yang kondusif dan dinamis</p>
       <button id="knli" class="btn btn-outline-secondary">
          Kenali Kami Lebih Lanjut
       </button>
    </div>
-   <div class="gambar-logo">
+   <div class="gambar-logo" data-aos="fade-up" data-aos-duration="1000">
       <img src="assets\image\Group 2007.png" alt="logo-hmj-si">
    </div>
 </div>
-<!-- =========================== visimisi ================================ -->
-<style>
-
-</style>
-<!-- <div id="visimisi" class="visi-misi d-flex">
-   <div>
-      <img src="assets\image\Visi_Misi.png" alt="">
-   </div>
-   <div id="vss" class="isi-visi-misi">
-      <div class="visi">
-         <p class="head-visi">Visi</p>
-         <p>Mewujudkan HMJ-SI yang adaptif, atraktif dan solutif, serta mampu menjadi wadah pemersatu, penampung aspirasi dan pengembangan diri mahasiswa Sistem Informasi yang berlandaskan kekeluargaan.</p>
-      </div>
-      <div class="misi container">
-         <p class="head-misi">Misi</p>
-         <ol>
-            <li>Menumbuhkan rasa kekeluargaan dan solidaritas yang tinggi di dalam internal HMJ-SI.</li>
-            <li>Mewujudkan anggota HMJ-SI yang aktif, inspiratif dan bertanggung jawab terhadap roda kepengurusan.</li>
-            <li>Menjalin hubungan dan kerjasama atas dasar kekeluargaan dengan organisasi di dalam atau di luar HMJ-SI.</li>
-            <li>Menjunjung tinggi profesionalitas demi terciptanya ruang kreativitas yang nyaman.</li>
-         </ol>
-      </div>
-   </div>
-</div>
-</div> -->
 <!-- =========================== Highlight ================================ -->
-<style>
-</style>
-
 <div class="hailaig container">
    <h2>Info Penting</h2>
    <!-- <div class="susunan d-flex">
@@ -102,57 +65,16 @@
    </div>
 </div>
 
+
+
 <!-- ============================= Berita Terkini ============================= -->
 <div class="berita-terkini container">
-   <!-- <div class="swiper-button-next swiper-navBtn"></div>
-   <div class="swiper-button-prev swiper-navBtn"></div>
-   <div class="swiper-pagination"></div>   -->
-   <div class="header-kegiatan">
-      <h4>Kegiatan</h4>
+   <div class="header-kegiatan text-center mt-5">
+      <h4>Artikel</h4>
    </div>
-   <!-- <div class="berita row row-cols-1 row-cols-md-4 g-4">
-      <?php
-      $count = 0; // Variabel penanda jumlah card yang sudah ditampilkan
 
-      if ($result->num_rows > 0) {
-         while ($row = $result->fetch_assoc()) {
-            if ($count >= 4) {
-               break; // Keluar dari loop setelah 4 card ditampilkan
-            }
-
-            $length = 100; // Panjang maksimal teks yang ingin ditampilkan
-
-            if (strlen($row["teks"]) > $length) {
-               $shortText = substr($row["teks"], 0, $length) . "...";
-            } else {
-               $shortText = $row["teks"];
-            }
-      ?>
-            <div class="col">
-               <div class="card">
-                  <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                     <h5 class="card-title"><?php echo $row["judul"]; ?> </h5>
-                     <p class="card-text"><?php echo $shortText; ?></p>
-                     <div class="tombol">
-                        <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-      <?php
-            $count++; // Increment variabel penanda jumlah card yang sudah ditampilkan
-         }
-      }
-      ?>
-   </div> -->
-
-   <!-- css  card kegiatan-->
-   <style>
-
-   </style>
    <!-- akhir css kegiatan  -->
-   <div class="slide-container">
+   <div class="slide-container mt-4" data-aos="fade-up" data-aos-duration="1000">
       <div class="slide-content">
          <div class="card-wrapper swiper-wrapper">
             <div class="card swiper-slide">
@@ -223,7 +145,7 @@
    <div class="container">
       <div class="big-3 container">
          <div class="row row-cols-1 row-cols-md-4 row-cols-sm-4 g-4 m-auto">
-            <div class="fajratul col">
+            <div class="fajratul col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                <div class="presidum card">
                   <div class="row g-0">
                      <div class="col-md-4">
@@ -239,7 +161,7 @@
                   </div>
                </div>
             </div>
-            <div class="farid col mt-5">
+            <div class="farid col mt-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                <div class="presidum card">
                   <div class="row g-0">
                      <div class="col-md-4">
@@ -255,7 +177,7 @@
                   </div>
                </div>
             </div>
-            <div class="irma col mt-5">
+            <div class="irma col mt-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                <div class="presidum card">
                   <div class="row g-0">
                      <div class="col-md-4">
@@ -276,10 +198,150 @@
    </div>
    <a class="text-secondary fw-bold float-end mt-2" style="text-decoration: underline;" href="tentang.html">Struktur Organisasi</a>
 </div>
+
+<!-- GALERY -->
+<div class="galery container">
+   <style>
+      .galery {
+         margin-top: 100px;
+      }
+
+      .cd__main {
+         display: block !important;
+      }
+
+      /* .container {
+  max-width: 80rem;
+  width: 100%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+} */
+
+      .main .container {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 1rem;
+         width: 80%;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .main .card {
+         color: #252a32;
+         border-radius: 2px;
+         background: #ffffff;
+         width: 80%;
+         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+      }
+
+      .main .card-image {
+         position: relative;
+         display: block;
+         width: 100%;
+         padding-top: 70%;
+         background: #ffffff;
+      }
+
+      .main .card-image img {
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+
+      @media only screen and (max-width: 600px) {
+         .main .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1rem;
+         }
+      }
+   </style>
+   <p class="text-center fw-bold mt-5 fs-5">GALERY HMJ</p>
+   <main class="main">
+      <div class="container">
+         <div class="card" data-aos="flip-down" data-aos-duration="1000">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-duration="1000">
+            <div class="card-image">
+               <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-duration="1000">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="200">
+            <div class="card-image">
+               <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="200">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="200">
+            <div class="card-image">
+               <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="400">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="400">
+            <div class="card-image">
+               <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="400">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+      </div>
+   </main>
+</div>
+
+
+<!-- peta  -->
 <div class="peta container mt-5">
    <p class="fw-bold"><i class="bi bi-geo-alt-fill"></i>HMJ SISTEM INFORMASI</p>
    <div class="maps embed-responsive embed-responsive-2by1">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.3602177171547!2d119.49512881544499!3d-5.205954353927998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee3a40ef0aa8f%3A0xad3e30fed1b78902!2sSekretariat%20HMJ%20Sistem%20Informasi%20UINAM!5e0!3m2!1sen!2sid!4v1680202270809!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </div>
 </div>
+
 <script src="assets/js/slider-kegiatan.js"></script>
+<script src="assets/js/galery.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init();
+</script>
