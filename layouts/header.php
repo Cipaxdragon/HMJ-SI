@@ -26,10 +26,14 @@
   background : #D6D6D6;
 }
 
+#kotakutama{
+   padding : 0px
+}
+
       </style>
    </head>
    <body>
-      <div class="kontainer container-fluid">
+      <div id="kotak_utama" class="kontainer container-fluid">
       <nav id="napbar" class="navbar navbar-expand-lg " style="background-color: white;">
          <div class="nav-con container d-flex justify-content-center-around ">
             <a href="index.html"><img class="logo-nav" src="./assets/image/logo hmjsi.png" alt="logo"></a>
@@ -46,10 +50,10 @@
                      <a class="nav-link fw-bold" href="index.php?page=artikel">Artikel</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=tentang">Pengurus</a>
+                     <a class="nav-link fw-bold" href="index.php?page=pengurus">Pengurus</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=kontak">Tentang Kami</a>
+                     <a class="nav-link fw-bold" href="index.php?page=tentang">Tentang Kami</a>
                   </li>
                   <li id="peding" class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

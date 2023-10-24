@@ -1,3 +1,7 @@
+<?php 
+  include_once "includes/p_berita.php";
+
+?>
 <!-- kotak  hero image -->
 <div class="kotakAtas container-fluid">
    <style>
