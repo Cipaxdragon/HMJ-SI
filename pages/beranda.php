@@ -1,7 +1,7 @@
 <!-- kotak  hero image -->
 <div class="kotakAtas container-fluid">
    <style>
-    
+
    </style>
    <div class="judul">
       <div class="hero_title">
@@ -21,7 +21,7 @@
 </div>
 <!-- tentang (kenali kami lebih lanjut) -->
 <style>
-  
+
 </style>
 <div id="b-tentang" class="container d-flex">
    <div class="tentang d-flex gap-3">
@@ -37,7 +37,7 @@
 </div>
 <!-- =========================== visimisi ================================ -->
 <style>
-  
+
 </style>
 <!-- <div id="visimisi" class="visi-misi d-flex">
    <div>
@@ -205,60 +205,59 @@
 </div>
 
 
-   <!-- <div class="kegiatan-terkini container"> <div class="atas mt-5 d-flex justify-content-between"> <p class="fw-bold">KEGIATAN TERKINI</p> <a href="kegiatan.html" class="text-secondary" style="text-decoration: underline;">Selengkapnya..</a> </div> <div class="kegiatan row row-cols-1 row-cols-md-4 g-4"> <div class="col"> <div class="card"> <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="..."> <div class="card-body"> <h5 class="card-title">Company Visit</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama"> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/IMG_1075.png" class="card-img-top" alt="gambar bersama"> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/IMG_4846 1.png" class="card-img-top" alt="..."> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> </div> </div> -->
+<!-- <div class="kegiatan-terkini container"> <div class="atas mt-5 d-flex justify-content-between"> <p class="fw-bold">KEGIATAN TERKINI</p> <a href="kegiatan.html" class="text-secondary" style="text-decoration: underline;">Selengkapnya..</a> </div> <div class="kegiatan row row-cols-1 row-cols-md-4 g-4"> <div class="col"> <div class="card"> <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="..."> <div class="card-body"> <h5 class="card-title">Company Visit</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/WhatsApp Image 2022-08-31 at 17.36.png" class="card-img-top" alt="gambar bersama"> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/IMG_1075.png" class="card-img-top" alt="gambar bersama"> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> <div class="col"> <div class="card"> <img src="./assets/image/IMG_4846 1.png" class="card-img-top" alt="..."> <div class="card-body"> <h5 class="card-title">Card title</h5> <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <div class="tombol"> <a href="#" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a> </div> </div> </div> </div> </div> </div> -->
 
 
 
-   <!-- pengurussssssssssssss -->
-   <div class="pengurus container">
-      <p class="text-center fw-bold mt-5 fs-5">PENGURUS HMJ-SI Periode 2022-2023</p>
-      <div class="container">
-         <div class="big-3 container">
-            <div class="row row-cols-1 row-cols-md-4 row-cols-sm-4 g-4 m-auto">
-               <div class="fajratul col">
-                  <div class="presidum card">
-                     <div class="row g-0">
-                        <div class="col-md-4">
-                           <img src="./assets/image/1.png" class="presidum card-img-top" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                           <div class="card-body">
-                              <h5 class="nama card-title text-white fw-bold">M. FAJRATUL IKHSAN</h5>
-                              <hr>
-                              <p class="deskripsi card-text text-warning fw-bold">Ketua Umum</p>
-                           </div>
+<!-- pengurussssssssssssss -->
+<div class="pengurus container">
+   <p class="text-center fw-bold mt-5 fs-5">PENGURUS HMJ-SI Periode 2022-2023</p>
+   <div class="container">
+      <div class="big-3 container">
+         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-4 g-4 m-auto">
+            <div class="fajratul col">
+               <div class="presidum card">
+                  <div class="row g-0">
+                     <div class="col-md-4">
+                        <img src="./assets/image/1.png" class="presidum card-img-top" alt="...">
+                     </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="nama card-title text-white fw-bold">M. FAJRATUL IKHSAN</h5>
+                           <hr>
+                           <p class="deskripsi card-text text-warning fw-bold">Ketua Umum</p>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="farid col mt-5">
-                  <div class="presidum card">
-                     <div class="row g-0">
-                        <div class="col-md-4">
-                           <img src="./assets/image/3.png" class="presidum card-img-top" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                           <div class="card-body">
-                              <h5 class="nama card-title text-white fw-bold">NUR FARID MUFID NR</h5>
-                              <hr>
-                              <p class="deskripsi card-text text-warning fw-bold">Sekretaris Umum</p>
-                           </div>
+            </div>
+            <div class="farid col mt-5">
+               <div class="presidum card">
+                  <div class="row g-0">
+                     <div class="col-md-4">
+                        <img src="./assets/image/3.png" class="presidum card-img-top" alt="...">
+                     </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="nama card-title text-white fw-bold">NUR FARID MUFID NR</h5>
+                           <hr>
+                           <p class="deskripsi card-text text-warning fw-bold">Sekretaris Umum</p>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="irma col mt-5">
-                  <div class="presidum card">
-                     <div class="row g-0">
-                        <div class="col-md-4">
-                           <img src="./assets/image/2.png" class="presidum card-img-top" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                           <div class="card-body">
-                              <h5 class="nama card-title text-white fw-bold">IRMA SURIANI S</h5>
-                              <hr>
-                              <p class="deskripsi card-text text-warning fw-bold">Bendahara Umum</p>
-                           </div>
+            </div>
+            <div class="irma col mt-5">
+               <div class="presidum card">
+                  <div class="row g-0">
+                     <div class="col-md-4">
+                        <img src="./assets/image/2.png" class="presidum card-img-top" alt="...">
+                     </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="nama card-title text-white fw-bold">IRMA SURIANI S</h5>
+                           <hr>
+                           <p class="deskripsi card-text text-warning fw-bold">Bendahara Umum</p>
                         </div>
                      </div>
                   </div>
@@ -266,13 +265,142 @@
             </div>
          </div>
       </div>
-      <a class="text-secondary fw-bold float-end mt-2" style="text-decoration: underline;" href="tentang.html">Struktur Organisasi</a>
    </div>
-   <div class="peta container mt-5">
-      <p class="fw-bold"><i class="bi bi-geo-alt-fill"></i>HMJ SISTEM INFORMASI</p>
-      <div class="maps embed-responsive embed-responsive-2by1">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.3602177171547!2d119.49512881544499!3d-5.205954353927998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee3a40ef0aa8f%3A0xad3e30fed1b78902!2sSekretariat%20HMJ%20Sistem%20Informasi%20UINAM!5e0!3m2!1sen!2sid!4v1680202270809!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-   </div>
+   <a class="text-secondary fw-bold float-end mt-2" style="text-decoration: underline;" href="tentang.html">Struktur Organisasi</a>
+</div>
 
-   <script src="assets/js/slider-kegiatan.js"></script>
+<!-- GALERY -->
+<div class="galery container">
+   <style>
+.cd__main{
+   display: block !important;
+}
+
+/* .container {
+  max-width: 80rem;
+  width: 100%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+} */
+
+.main .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.main .card {
+  color: #252a32;
+  border-radius: 2px;
+  background: #ffffff;
+  width: 80%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+.main .card-image {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 70%;
+  background: #ffffff;
+}
+.main .card-image img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .main .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+}
+   </style>
+   <p class="text-center fw-bold mt-5 fs-5">GALERY HMJ</p>
+   <main class="main">
+  <div class="container">
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+
+<!-- peta  -->
+<div class="peta container mt-5">
+   <p class="fw-bold"><i class="bi bi-geo-alt-fill"></i>HMJ SISTEM INFORMASI</p>
+   <div class="maps embed-responsive embed-responsive-2by1">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.3602177171547!2d119.49512881544499!3d-5.205954353927998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee3a40ef0aa8f%3A0xad3e30fed1b78902!2sSekretariat%20HMJ%20Sistem%20Informasi%20UINAM!5e0!3m2!1sen!2sid!4v1680202270809!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+</div>
+
+<script src="assets/js/slider-kegiatan.js"></script>
+<script src="assets/js/galery.js"></script>
