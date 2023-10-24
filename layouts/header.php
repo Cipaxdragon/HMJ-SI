@@ -10,6 +10,8 @@
    <link rel="stylesheet" href="assets\css\bootstrap.css">
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    <script src="assets\js\bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
@@ -36,8 +38,8 @@
 
 <body>
    <div>
-      <nav id="napbar" class="navbar navbar-expand-lg " style="background-color: white;">
-         <div class="nav-con container d-flex justify-content-center-around ">
+      <nav id="napbar" class="navbar navbar-expand-lg" style="background-color: white;">
+         <div class="nav-con container d-flex justify-content-center-around animate__animated animate__fadeInDown">
             <a href="index.html"><img class="logo-nav" src="./assets/image/logo hmjsi.png" alt="logo"></a>
             <a href="index.html" class="nama-nav fs-5" style="text-decoration: none; font-weight: 850;">SISFO UINAM</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">

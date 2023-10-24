@@ -1,9 +1,6 @@
 <!-- kotak  hero image -->
 <div class="kotakAtas container-fluid">
-   <style>
-
-   </style>
-   <div class="judul">
+   <div class="judul animate__animated animate__fadeInUp">
       <div class="hero_title">
          <p class="hero_title_1">
             Himpunan Mahasiswa Jurusan
@@ -24,14 +21,14 @@
 
 </style>
 <div id="b-tentang" class="container d-flex">
-   <div class="tentang d-flex gap-3">
+   <div class="tentang d-flex gap-3" data-aos="fade-up" data-aos-duration="1000">
       <p class="tt">Tentang</p>
       <p class="ls"> Himpunan Mahasiswa Jurusan Sistem Informasi adalah suatu wadah yang menampung mahasiswa Sistem Informasi yang mengatur jalannya roda organisasi yang dihimpun dalam anggaran dasar dan anggaran rumah tangga untuk menciptakan suasanan kehidupan organisasi yang kondusif dan dinamis</p>
       <button id="knli" class="btn btn-outline-secondary">
          Kenali Kami Lebih Lanjut
       </button>
    </div>
-   <div class="gambar-logo">
+   <div class="gambar-logo" data-aos="fade-up" data-aos-duration="1000">
       <img src="assets\image\Group 2007.png" alt="logo-hmj-si">
    </div>
 </div>
@@ -68,52 +65,12 @@
 
 <!-- ============================= Berita Terkini ============================= -->
 <div class="berita-terkini container">
-   <!-- <div class="swiper-button-next swiper-navBtn"></div>
-   <div class="swiper-button-prev swiper-navBtn"></div>
-   <div class="swiper-pagination"></div>   -->
-   <div class="header-kegiatan">
-      <h4>Kegiatan</h4>
+   <div class="header-kegiatan text-center mt-5">
+      <h4>Artikel</h4>
    </div>
-   <!-- <div class="berita row row-cols-1 row-cols-md-4 g-4">
-      <?php
-      $count = 0; // Variabel penanda jumlah card yang sudah ditampilkan
 
-      if ($result->num_rows > 0) {
-         while ($row = $result->fetch_assoc()) {
-            if ($count >= 4) {
-               break; // Keluar dari loop setelah 4 card ditampilkan
-            }
-
-            $length = 100; // Panjang maksimal teks yang ingin ditampilkan
-
-            if (strlen($row["teks"]) > $length) {
-               $shortText = substr($row["teks"], 0, $length) . "...";
-            } else {
-               $shortText = $row["teks"];
-            }
-      ?>
-            <div class="col">
-               <div class="card">
-                  <img src="./assets/image/IMG_9181 1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                     <h5 class="card-title"><?php echo $row["judul"]; ?> </h5>
-                     <p class="card-text"><?php echo $shortText; ?></p>
-                     <div class="tombol">
-                        <a href="company-visit.html" class="btn fw-bold text-light">Selengkapnya<i class="bi bi-caret-right-fill"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-      <?php
-            $count++; // Increment variabel penanda jumlah card yang sudah ditampilkan
-         }
-      }
-      ?>
-   </div> -->
-
-   <!-- css  card kegiatan-->
    <!-- akhir css kegiatan  -->
-   <div class="slide-container">
+   <div class="slide-container mt-4" data-aos="fade-up" data-aos-duration="1000">
       <div class="slide-content">
          <div class="card-wrapper swiper-wrapper">
             <div class="card swiper-slide">
@@ -184,7 +141,7 @@
    <div class="container">
       <div class="big-3 container">
          <div class="row row-cols-1 row-cols-md-4 row-cols-sm-4 g-4 m-auto">
-            <div class="fajratul col">
+            <div class="fajratul col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                <div class="presidum card">
                   <div class="row g-0">
                      <div class="col-md-4">
@@ -200,7 +157,7 @@
                   </div>
                </div>
             </div>
-            <div class="farid col mt-5">
+            <div class="farid col mt-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                <div class="presidum card">
                   <div class="row g-0">
                      <div class="col-md-4">
@@ -216,7 +173,7 @@
                   </div>
                </div>
             </div>
-            <div class="irma col mt-5">
+            <div class="irma col mt-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                <div class="presidum card">
                   <div class="row g-0">
                      <div class="col-md-4">
@@ -226,7 +183,7 @@
                         <div class="card-body">
                            <h5 class="nama card-title text-white fw-bold">IRMA SURIANI S</h5>
                            <hr>
-                              <p class="deskripsi card-text text-warning fw-bold">Bendahara Umum</p>
+                           <p class="deskripsi card-text text-warning fw-bold">Bendahara Umum</p>
                         </div>
                      </div>
                   </div>
@@ -241,125 +198,132 @@
 <!-- GALERY -->
 <div class="galery container">
    <style>
-.cd__main{
-   display: block !important;
-}
+      .galery {
+         margin-top: 100px;
+      }
 
-/* .container {
+      .cd__main {
+         display: block !important;
+      }
+
+      /* .container {
   max-width: 80rem;
   width: 100%;
   padding: 4rem 2rem;
   margin: 0 auto;
 } */
 
-.main .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-  width: 80%;
-  justify-content: center;
-  align-items: center;
-}
-.main .card {
-  color: #252a32;
-  border-radius: 2px;
-  background: #ffffff;
-  width: 80%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
-}
-.main .card-image {
-  position: relative;
-  display: block;
-  width: 100%;
-  padding-top: 70%;
-  background: #ffffff;
-}
-.main .card-image img {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+      .main .container {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 1rem;
+         width: 80%;
+         justify-content: center;
+         align-items: center;
+      }
 
-@media only screen and (max-width: 600px) {
-  .main .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
-  }
-}
+      .main .card {
+         color: #252a32;
+         border-radius: 2px;
+         background: #ffffff;
+         width: 80%;
+         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+      }
+
+      .main .card-image {
+         position: relative;
+         display: block;
+         width: 100%;
+         padding-top: 70%;
+         background: #ffffff;
+      }
+
+      .main .card-image img {
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+
+      @media only screen and (max-width: 600px) {
+         .main .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1rem;
+         }
+      }
    </style>
    <p class="text-center fw-bold mt-5 fs-5">GALERY HMJ</p>
    <main class="main">
-  <div class="container">
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
-        </a>
+      <div class="container">
+         <div class="card" data-aos="flip-down" data-aos-duration="1000">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-duration="1000">
+            <div class="card-image">
+               <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-duration="1000">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="200">
+            <div class="card-image">
+               <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="200">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="200">
+            <div class="card-image">
+               <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="400">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="400">
+            <div class="card-image">
+               <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
+         <div class="card" data-aos="flip-down" data-aos-delay="400">
+            <div class="card-image">
+               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               </a>
+            </div>
+         </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_4846 1.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_4846 1.png" alt="Image Gallery">
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-image">
-        <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
-          <img src="assets\image\IMG_1075.png" alt="Image Gallery">
-        </a>
-      </div>
-    </div>
-  </div>
-</main>
+   </main>
 </div>
 
 
@@ -373,3 +337,7 @@
 
 <script src="assets/js/slider-kegiatan.js"></script>
 <script src="assets/js/galery.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init();
+</script>
