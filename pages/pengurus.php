@@ -1,4 +1,7 @@
 <style>
+    body{
+        font-family: montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
    .kotak_divisi{
    padding: 170px;
    display: flex;
@@ -39,6 +42,9 @@
    flex-direction: column;
    display: flex;
    }
+   .kabid:active {
+    transform: scale(3); /* Skala elemen saat di-klik */
+    }
    .kabid .penjelasan{
    display: flex;
    flex-direction: column;
@@ -100,13 +106,14 @@
        }
    }
    for ($i = 1; $i <= 5; $i++) {
-       echo "Outer Loop: $i<br>";
+    //    echo "Outer Loop: $i<br>";
    $sql1 = "SELECT * FROM pengurus 
        WHERE jabatan BETWEEN 1 AND 2 and divisi=$i
        ORDER BY divisi, jabatan;";
    $result = $conn->query($sql1);
    ?>
 <div class="kotak_divisi">
+    <h1><?php echo Divisi($i)?></h1>
    <div class="kotak_kabid">
       <?php
          if ($result->num_rows > 0)
@@ -157,7 +164,7 @@
       }
    </style>
    <?php
-      $sql2 = "SELECT * FROM pengurus WHERE jabatan=3 and divisi=$i ORDER BY divisi, jabatan;";
+      $sql2 = "SELECT * FROM pengurus WHERE jabatan=3 and divisi=$i ORDER BY divisi, jabatan ASC;";
       $result = $conn->query($sql2);
       if ($result->num_rows > 0)
       {
@@ -168,7 +175,7 @@
    <div class="kotak_anggota">
       <?php while ($row = $result->fetch_assoc())
          { ?>
-      <a href="https://www.instagram.com/nurh4lis" target="_blank">
+      <a href="https://www.instagram.com/<?php echo $row["medsos"] ?>" target="_blank">
          <div class="kotak_anggota_dalam">
             <div class="poto">
                <img src="<?php echo $row["gambar"] ?>" alt="">
