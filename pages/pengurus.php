@@ -67,27 +67,80 @@
         padding: 1.5rem;
     }
 </style>
+
+<?php
+
+
+function Jabatan($jabatanCode)
+{
+    if ($jabatanCode == 1)
+    {
+        return "Kepala Divisi";
+    }
+    elseif ($jabatanCode == 2)
+    {
+        return "Wakil Kepala Divisi";
+    }
+    else
+    {
+        return "Anggota Divisi";
+    }
+}
+
+function Divisi($divisiCode)
+{
+    switch ($divisiCode)
+    {
+        case 1:
+            return "Keilmuan";
+        case 2:
+            return "Humas";
+        case 3:
+            return "Kaderisasi";
+        case 4:
+            return "Kominfo";
+        default:
+            return " ";
+    }
+}
+
+for ($i = 1; $i <= 5; $i++) {
+    echo "Outer Loop: $i<br>";
+  
+
+
+
+$sql1 = "SELECT * FROM pengurus 
+    WHERE jabatan BETWEEN 1 AND 2 and divisi=$i
+    ORDER BY divisi, jabatan;";
+$result = $conn->query($sql1);
+?>
     <div class="kotak_divisi">
-        
+    
+    
         <div class="kotak_kabid">
+        <?php
+        
+if ($result->num_rows > 0)
+{
+    while ($row = $result->fetch_assoc())
+    {
+        // Output data dari setiap baris
+            
+?>
+
             <div class="kabid">
                 <div class="poto">
-                    <img src="https://cdn.discordapp.com/attachments/1152085105641279519/1166744171072200794/Adam.png?ex=654b9a2f&is=6539252f&hm=c70c67c1c2439727abbf1b64ab0225eb6051f2e6edd859febc97b0604f263b23&" alt="">
+                    <img src="<?php echo $row["gambar"] ?>" alt="">
                 </div>
                 <div class="penjelasan">
-                    <h4>Adam</h4>
-                    <p>Kepala Bidang Kominfo</p>
+                    <h4><?php echo $row["nama"] ?></h4>
+                    <p><?php echo Jabatan($row["jabatan"]) ?> <?php echo Divisi($row["divisi"]) ?></p>
                 </div>
             </div>
-            <div class="kabid">
-                <div class="poto">
-                    <img src="assets\image\Poto.png" alt="">
-                </div>
-                <div class="penjelasan">
-                    <h5>Nadyah Adawiyah</h5>
-                    <p>Wakil Kepala Bidang Kominfo</p>
-                </div>
-            </div>
+           <?php
+    }
+} ?>
         </div>
         <style>
             .poto{
@@ -118,67 +171,35 @@
                 color: black;
             }
         </style>
-        <div class="kotak_anggota">
-            <a href="">
+        <?php
 
+$sql2 = "SELECT * FROM pengurus WHERE jabatan=3 and divisi=$i ORDER BY divisi, jabatan;";
+$result = $conn->query($sql2);
+if ($result->num_rows > 0)
+{
+
+    // Output data dari setiap baris
+    
+?>
+            <div class="kotak_anggota">
+            <?php while ($row = $result->fetch_assoc())
+    { ?>
+            <a href="https://www.instagram.com/nurh4lis" target="_blank">
             <div class="kotak_anggota_dalam">
                 <div class="poto">
-                    <img src="https://cdn.discordapp.com/attachments/1152115515649699960/1166718361212829736/Halis.png?ex=654b8225&is=65390d25&hm=a32f2fd9884f2c8f32912cf8e99e33f871b65b6c61b756587914572415f2c65f&" alt="">
+                    <img src="<?php echo $row["gambar"] ?>" alt="">
                 </div>
                 <div class="penjelasan">
-                    <h5>Ridho</h5>
-                    <p>Anggota Bidang Kominfo</p>
+                    <h5><?php echo $row["nama"] ?></h5>
+                    <p><?php echo Jabatan($row["jabatan"]) ?> <?php echo Divisi($row["divisi"]) ?></p>
                 </div>
             </div>
             </a>
-
-            <div class="kotak_anggota_dalam">
-                <div class="poto">
-                    <img src="assets\image\Poto.png" alt="">
-                </div>
-                <div class="penjelasan">
-                    <h5>Ridho</h5>
-                    <p>Anggota Bidang Kominfo</p>
-                </div>
-            </div>
-            <div class="kotak_anggota_dalam">
-                <div class="poto">
-                    <img src="assets\image\Poto.png" alt="">
-                </div>
-                <div class="penjelasan">
-                    <h5>Ridho</h5>
-                    <p>Anggota Bidang Kominfo</p>
-                </div>
-            </div>
-            <div class="kotak_anggota_dalam">
-                <div class="poto">
-                    <img src="assets\image\Poto.png" alt="">
-                </div>
-                <div class="penjelasan">
-                    <h5>Ridho</h5>
-                    <p>Anggota Bidang Kominfo</p>
-                </div>
-            </div>
-            <div class="kotak_anggota_dalam">
-                <div class="poto">
-                    <img src="assets\image\Poto.png" alt="">
-                </div>
-                <div class="penjelasan">
-                    <h5>Ridho</h5>
-                    <p>Anggota Bidang Kominfo</p>
-                </div>
-            </div>
-            <div class="kotak_anggota_dalam">
-                <div class="poto">
-                    <img src="assets\image\Poto.png" alt="">
-                </div>
-                <div class="penjelasan">
-                    <h5>Ridho</h5>
-                    <p>Anggota Bidang Kominfo</p>
-                </div>
-            </div>
-            
+            <?php
+    }
+} ?>
         </div>
         
         
     </div>
+<?php }?>
