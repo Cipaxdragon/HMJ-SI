@@ -1,5 +1,5 @@
-<?php 
-  include_once "includes/p_berita.php";
+<?php
+include_once "includes/p_berita.php";
 
 ?>
 <!-- kotak  hero image -->
@@ -38,6 +38,15 @@
 </div>
 <!-- =========================== Highlight ================================ -->
 <div class="hailaig container">
+   <style>
+      .hailaig img {
+         box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.25);
+         border-radius: 30px;
+         width: 900px;
+         height: 400px;
+         object-fit: cover;
+      }
+   </style>
    <h2>Info Penting</h2>
    <!-- <div class="susunan d-flex">
       <img src="assets\image\Berita_Kajur.png" alt="gambar">
@@ -48,7 +57,7 @@
             <img src="assets\image\Berita_Kajur.png" class="" alt="...">
          </div>
          <div class="carousel-item">
-            <img src="assets\image\Berita_Kajur.png" class="d-block " alt="...">
+            <img src="assets\image\IMG_1075.png" class="d-block " alt="...">
          </div>
          <div class="carousel-item">
             <img src="assets\image\Berita_Kajur.png" class="d-block " alt="...">
@@ -69,6 +78,13 @@
 
 <!-- ============================= Berita Terkini ============================= -->
 <div class="berita-terkini container">
+   <style>
+      .image-content {
+         /* position: relative; */
+         row-gap: 5px;
+         padding: 15px 0;
+      }
+   </style>
    <div class="header-kegiatan text-center mt-5">
       <h4>Artikel</h4>
    </div>
@@ -79,7 +95,6 @@
          <div class="card-wrapper swiper-wrapper">
             <div class="card swiper-slide">
                <div class="image-content">
-                  <span class="overlay"></span>
                   <div class="card-image">
                      <img src="assets\image\IMG_1075.png" alt="" class="card-img">
                   </div>
@@ -92,7 +107,6 @@
             </div>
             <div class="card swiper-slide">
                <div class="image-content">
-                  <span class="overlay"></span>
                   <div class="card-image">
                      <img src="assets\image\IMG_1075.png" alt="" class="card-img">
                   </div>
@@ -105,7 +119,6 @@
             </div>
             <div class="card swiper-slide">
                <div class="image-content">
-                  <span class="overlay"></span>
                   <div class="card-image">
                      <img src="assets\image\IMG_1075.png" alt="" class="card-img">
                   </div>
@@ -118,7 +131,6 @@
             </div>
             <div class="card swiper-slide">
                <div class="image-content">
-                  <span class="overlay"></span>
                   <div class="card-image">
                      <img src="assets\image\IMG_1075.png" alt="" class="card-img">
                   </div>
