@@ -307,8 +307,8 @@
          </div>
          <div class="card" data-aos="flip-down" data-aos-delay="400">
             <div class="card-image">
-               <a href="assets\image\IMG_1075.png" data-fancybox="gallery" data-caption="Caption Images 1">
-                  <img src="assets\image\IMG_1075.png" alt="Image Gallery">
+               <a href="https://cdn.discordapp.com/attachments/847167613842489405/1166431154690330674/Diki_1.png?ex=654a76aa&is=653801aa&hm=1d06161a6b09bef3b08e8f2e4540bcdd2679924960b43cbc724cfc7a13e85b05&" data-fancybox="gallery" data-caption="Caption Images 1">
+                  <img src="https://cdn.discordapp.com/attachments/847167613842489405/1166431154690330674/Diki_1.png?ex=654a76aa&is=653801aa&hm=1d06161a6b09bef3b08e8f2e4540bcdd2679924960b43cbc724cfc7a13e85b05&" alt="Image Gallery">
                </a>
             </div>
          </div>

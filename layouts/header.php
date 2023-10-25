@@ -54,7 +54,7 @@
                      <a class="nav-link fw-bold" href="index.php?page=artikel">Artikel</a>
                   </li>
                   <li id="peding" class="nav-item">
-                     <a class="nav-link fw-bold" href="index.php?page=tentang">Pengurus</a>
+                     <a class="nav-link fw-bold" href="index.php?page=pengurus">Pengurus</a>
                   </li>
                   <li id="peding" class="nav-item">
                      <a class="nav-link fw-bold" href="index.php?page=kontak">Tentang Kami</a>
