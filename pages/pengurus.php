@@ -23,8 +23,8 @@
         width: 100%;
     }
     .kabid{
-        border-bottom: 4px solid #dedede;
-        border-right: 4px solid #dedede;
+        border-bottom: 4px solid #ededed;
+        border-right: 4px solid #ededed;
 
         width: 100%;
         overflow: hidden;
@@ -99,17 +99,15 @@ function Divisi($divisiCode)
             return "Kaderisasi";
         case 4:
             return "Kominfo";
+        case 5:
+            return "Keslog";
+        
         default:
             return " ";
     }
 }
-
 for ($i = 1; $i <= 5; $i++) {
     echo "Outer Loop: $i<br>";
-  
-
-
-
 $sql1 = "SELECT * FROM pengurus 
     WHERE jabatan BETWEEN 1 AND 2 and divisi=$i
     ORDER BY divisi, jabatan;";
@@ -126,7 +124,6 @@ if ($result->num_rows > 0)
     while ($row = $result->fetch_assoc())
     {
         // Output data dari setiap baris
-            
 ?>
 
             <div class="kabid">

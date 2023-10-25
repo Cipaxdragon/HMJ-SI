@@ -226,7 +226,7 @@
             <ul>
                <li><a href="index.php?page=beranda">Beranda</a></li>
                <li><a href="index.php?page=artikel">Berita</a></li>
-               <li><a href="video-conference.html">Pengurus</a></li>
+               <li><a href="index.php?page=pengurus">Pengurus</a></li>
                <li><a href="index.php?page=tentang">Tentang</a></li>
                <li><a href="index.php?page=kontak">Lainnya</a></li>
             </ul>
