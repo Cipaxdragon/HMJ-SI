@@ -1,15 +1,12 @@
 <?php
 session_start();
-
 // Periksa apakah pengguna sudah login, jika tidak, alihkan ke halaman login
 if(!isset($_SESSION['username'])){
     header("Location: admin.php");
     exit;
 }
-
 $username = $_SESSION['username'];
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>

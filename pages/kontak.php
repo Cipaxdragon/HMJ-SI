@@ -1,4 +1,3 @@
-
    <main>
       <div class="bea-top container text-center fw-bold mt-5">
             <div class="row">
@@ -13,7 +12,6 @@
               </div>
         </div>
     </div>
-
     <div class="activity container">
         <p class="fs-5 mt-5 fw-bold" style="color:#1245BA;">Info Pengumuman</p>
         <div class="row">
