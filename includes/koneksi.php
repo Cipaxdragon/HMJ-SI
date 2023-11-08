@@ -1,5 +1,3 @@
-
-
 <?php 
     // Koneksi ke database
     $servername = "localhost";

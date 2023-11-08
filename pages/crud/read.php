@@ -8,7 +8,7 @@
             <thead class="thead-dark">
                 <tr>
                     <th>Judul</th>
-                    <th>Kategori</th>
+                    <!-- <th>Kategori</th> -->
                     <th>Gambar</th>
                     <th>Teks</th>
                     <th>Waktu</th>
@@ -19,7 +19,6 @@
                 <?php foreach ($postingan as $post) { ?>
                 <tr>
                     <td><?php echo $post['judul']; ?></td>
-                    <td><?php echo $post['kategori']; ?></td>
                     <td><?php echo $post['gambar']; ?></td>
                     <td><?php echo $post['teks']; ?></td>
                     <td><?php echo $post['waktu']; ?></td>

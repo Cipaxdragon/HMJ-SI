@@ -30,6 +30,10 @@
     case 'pengurus':
       include_once "pages/pengurus.php";
       break;
+    case 'namakelompok':
+      include_once "pages/namakelompok.php";
+      break;
+    
     default:
       include_once "pages/beranda.php";
       break;

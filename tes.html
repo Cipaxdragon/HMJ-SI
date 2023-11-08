@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Dashboard with Sidebar</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Sidebar -->
+  <aside class="bg-gray-800 text-white h-screen w-64 fixed top-0 left-0 overflow-y-auto">
+    <div class="p-4">
+      <h1 class="text-2xl font-semibold mb-4">Dashboard</h1>
+      <ul>
+        <li class="mb-2"><a href="#" class="text-gray-300 hover:text-white">Home</a></li>
+        <li class="mb-2"><a href="#" class="text-gray-300 hover:text-white">Users</a></li>
+        <li class="mb-2"><a href="#" class="text-gray-300 hover:text-white">Settings</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- Content -->
+  <div class="ml-64">
+    <header class="bg-gray-800 text-white text-center py-4">
+      <h1 class="text-2xl font-semibold">CRUD Dashboard</h1>
+    </header>
+
+    <div class="container mx-auto my-8 p-8 bg-white rounded shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">Data List</h2>
+
+      <table class="w-full mb-8">
+        <thead>
+          <tr>
+            <th class="py-2 px-4 bg-gray-800 text-white">ID</th>
+            <th class="py-2 px-4 bg-gray-800 text-white">Title</th>
+            <th class="py-2 px-4 bg-gray-800 text-white">Date</th>
+            <th class="py-2 px-4 bg-gray-800 text-white">Image</th>
+            <th class="py-2 px-4 bg-gray-800 text-white">Text</th>
+            <th class="py-2 px-4 bg-gray-800 text-white">Action</th>
+          </tr>
+        </thead>
+        <tbody id="data-table-body">
+          <!-- Data will be inserted here dynamically using JavaScript -->
+        </tbody>
+      </table>
+
+      <h2 class="text-2xl font-semibold mb-4">Add New Data</h2>
+      <form id="data-form" class="mb-8">
+        <!-- Your form fields remain the same -->
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Sample data for demonstration
+    const sampleData = [
+      { id: 1, title: 'Sample Title 1', date: '2023-11-08', image: 'image1.jpg', text: 'Sample Text 1' },
+      { id: 2, title: 'Sample Title 2', date: '2023-11-09', image: 'image2.jpg', text: 'Sample Text 2' },
+    ];
+
+    // Function to display data in the table
+    function displayData() {
+      const tableBody = document.getElementById('data-table-body');
+      tableBody.innerHTML = '';
+
+      sampleData.forEach(data => {
+        const row = `<tr>
+                      <td class="py-2 px-4">${data.id}</td>
+                      <td class="py-2 px-4">${data.title}</td>
+                      <td class="py-2 px-4">${data.date}</td>
+                      <td class="py-2 px-4">${data.image}</td>
+                      <td class="py-2 px-4">${data.text}</td>
+                      <td class="py-2 px-4">
+                        <button onclick="editData(${data.id})" class="text-blue-600">Edit</button>
+                        <button onclick="deleteData(${data.id})" class="text-red-600 ml-2">Delete</button>
+                      </td>
+                    </tr>`;
+        tableBody.innerHTML += row;
+      });
+    }
+
+    // Function to add new data
+    function addData() {
+      const title = document.getElementById('title').value;
+      const date = document.getElementById('date').value;
+      const image = document.getElementById('image').value;
+      const text = document.getElementById('text').value;
+
+      // Add new data to the sample data array (for demonstration)
+      const newData = {
+        id: sampleData.length + 1,
+        title,
+        date,
+        image,
+        text,
+      };
+      sampleData.push(newData);
+
+      // Display updated data in the table
+      displayData();
+
+      // Clear the form
+      document.getElementById('data-form').reset();
+    }
+
+    // Function to edit data (not implemented in this example)
+    function editData(id) {
+      // Implement edit functionality as needed
+    }
+
+    // Function to delete data (not implemented in this example)
+    function deleteData(id) {
+      // Implement delete functionality as needed
+    }
+
+    // Initial display of data
+    displayData();
+  </script>
+
+</body>
+</html>

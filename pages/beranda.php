@@ -337,6 +337,31 @@ include_once "includes/p_berita.php";
    </main>
 </div>
 
+   <style>
+   #kritik{
+      gap: 10px;
+    display: flex;
+    flex-direction: column;
+   }
+   </style>
+<!-- kritik dan saran -->
+<div  class="container mt-5">
+        <h2>Form Kritik dan Saran</h2>
+        <form id="kritik" class="mt-4">
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" class="form-control" id="nama" placeholder="Opsional">
+            </div>
+            
+            <div class="form-group">
+                <label for="pesan">Pesan:</label>
+                <textarea class="form-control" id="pesan" rows="4" placeholder="Tuliskan kritik dan saran Anda"></textarea>
+            </div>
+            <button  type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </div>
+
+
 
 <!-- peta  -->
 <div class="peta container mt-5">

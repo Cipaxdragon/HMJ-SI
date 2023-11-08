@@ -30,5 +30,9 @@ INSERT INTO `pengurus` (`nama`, `gambar`, `divisi`, `jabatan`) VALUES ('Muh Ridh
 
 
 
+INSERT INTO `pengurus` (`nama`, `gambar`, `divisi`, `jabatan`) VALUES ('Awal Prasetya Jayadi', 'https://cdn.discordapp.com/attachments/1152085105641279519/1166744299015245934/Awal.png?ex=654b9a4d&is=6539254d&hm=c01b6fb2a8691e7ae0d63cadc622e7c3ac08257b4ca6eebb190f030110d9c175&', 2, 1);
+
+INSERT INTO `pengurus` (`nama`, `gambar`, `divisi`, `jabatan`) VALUES ('Awal Prasetya Jayadi', 'https://cdn.discordapp.com/attachments/1152085105641279519/1166744299015245934/Awal.png?ex=654b9a4d&is=6539254d&hm=c01b6fb2a8691e7ae0d63cadc622e7c3ac08257b4ca6eebb190f030110d9c175&', 2, 2);
+
 
 

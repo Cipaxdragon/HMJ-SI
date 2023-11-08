@@ -228,7 +228,7 @@
                <li><a href="index.php?page=artikel">Berita</a></li>
                <li><a href="index.php?page=pengurus">Pengurus</a></li>
                <li><a href="index.php?page=tentang">Tentang</a></li>
-               <li><a href="index.php?page=kontak">Lainnya</a></li>
+               <li><a href="index.php?page=namakelompok">Nama Kelompok</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
          </nav><!-- .navbar -->
