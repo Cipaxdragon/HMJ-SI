@@ -2,68 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Halaman Artikel</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .nav-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .nav-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown:hover .nav-content {
+            display: block;
+        }
+
+        @media screen and (max-width: 600px) {
+            nav a, .dropdown .dropbtn {
+                display: none;
+            }
+            .dropdown, .navbar a.icon {
+                display: block;
+            }
+            .dropdown-content {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
 
-<!-- Navigasi -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Nama Situs</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kategori</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tentang Kami</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<!-- Konten Artikel -->
-<div class="container mt-4">
-    <div class="row">
-        <div class="col-md-8">
-            <h1>Judul Artikel</h1>
-            <p class="text-muted">Tanggal Publikasi: 9 November 2023</p>
-            <img src="gambar-artikel.jpg" class="img-fluid" alt="Gambar Artikel">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...
-                <!-- Isi artikel -->
-            </p>
-        </div>
-
-        <!-- Sidebar -->
-        <div class="col-md-4">
-            <h3>Berita Terkait</h3>
-            <ul class="list-group">
-                <li class="list-group-item"><a href="#">Berita 1</a></li>
-                <li class="list-group-item"><a href="#">Berita 2</a></li>
-                <li class="list-group-item"><a href="#">Berita 3</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-<footer class="bg-dark text-light text-center p-3">
-    &copy; 2023 Nama Situs. All rights reserved.
-</footer>
-
-<!-- Bootstrap JS, Popper.js, jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Services 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="nav-content">
+                <a href="#service1">Service 1</a>
+                <a href="#service2">Service 2</a>
+                <a href="#service3">Service 3</a>
+            </div>
+        </div> 
+        <a href="#contact">Contact</a>
+    </nav>
 
 </body>
 </html>

@@ -76,8 +76,8 @@
                      </td>
                      <td class="py-2 px-4"><?php echo $limitedText; ?></td>
                      <td class="py-2 px-4">
-                        <a href="d.php?page=edit" class="text-blue-600">Edit</a>
-                        <a href="includes\delete.php?id=<?php echo  $post['id'];?>" class="text-red-600 ml-2">Delete</a>
+                        <a href="d.php?page=edit&id=<?= $post['id']; ?>" class="text-blue-600">Edit</a>
+                        <a href="includes\delete.php?id=<?php echo $post['id'];?>" class="text-red-600 ml-2">Delete</a>
                      </td>
                      <?php }?>
                   </tr>
