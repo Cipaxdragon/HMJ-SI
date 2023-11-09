@@ -22,6 +22,7 @@
             <ul>
                <li class="pilih mb-2"><a href="d.php?page=artikel" class="text-gray-300 hover:text-white">Artikel</a></li>
                <li class="pilih mb-2"><a href="d.php?page=pengurus" class="text-gray-300 hover:text-white">Pengurus</a></li>
+               <li class="pilih mb-2"><a href="d.php?page=kritik" class="text-gray-300 hover:text-white">Kritik dan Saran</a></li>
                <li class="pilih mb-2"><a href="#" class="text-gray-300 hover:text-white">Galeri</a></li>
             </ul>
          </div>

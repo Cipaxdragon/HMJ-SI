@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
     // Periksa username dan password
     $username = $_POST['username'];
     $password = $_POST['password'];
-
+    
     // Jika login berhasil, set session dan alihkan ke halaman dashboard
     if($username == $us && $password == $pw){
         $_SESSION['username'] = $username;

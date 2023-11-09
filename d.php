@@ -32,6 +32,9 @@
              case 'edit':
                 include_once "pages/crud2/edit.php";
                 break; 
+             case 'kritik':
+                include_once "pages/crud2/kritik.php";
+                break;   
            case 'pengurus':
             include_once "pages/crud2/pengurus.php";
              break;
