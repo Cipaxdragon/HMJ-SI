@@ -36,18 +36,17 @@ if (isset($_GET['id'])) {
     justify-content: flex-start;
 }
 </style>
-<div class="erwere">
-    <div>
-        <h1><?php echo $row["judul"]; ?></h1>
+    <div class="container-sm mx-auto mt-5 ">
+            <h1 class="text-center"><?php echo $row["judul"]; ?></h1>
+        <div class="container-fluid">
+            <img class="rounded w-100 d-block " src="<?php echo $row["gambar"]; ?>" alt="">
+        </div>
+        <div class="container p-5 ">
+            <div class="tanggal_bacaan">
+            <?php echo $row["waktu"]; ?>
+            </div>
+            <?php echo $row["teks"]; ?>
+
+        </div>
     </div>
-    <div class="gambar_bacaan">
-        <img src="assets/image/<?php echo $row["gambar"]; ?>" alt="">
-    </div>
-    <div class="tanggal_bacaan">
-    <?php echo $row["waktu"]; ?>
-    </div>
-    <div>
-    <?php echo $row["teks"]; ?>
-    </div>
-</div>
 <?php include_once "layouts/footer.php";?>

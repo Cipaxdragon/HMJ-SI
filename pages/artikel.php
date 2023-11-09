@@ -1,3 +1,5 @@
+
+
 <style>
    .judul {
       justify-content: center;
@@ -65,7 +67,7 @@
       ?>
    <div class="kotak-artikel">
       <div class="gambar-artikel">
-         <img src="assets\image\<?php echo $row["gambar"];  ?>" alt=""> <!-- Ganti "gambar_url" dengan nama kolom yang sesuai di tabel database -->
+         <img src="<?php echo $row["gambar"];?>" alt=""> <!-- Ganti "gambar_url" dengan nama kolom yang sesuai di tabel database -->
       </div>
       <div class="text-artikel">
          <a href="bacaan.php?id=<?php echo $row["id"];?>">

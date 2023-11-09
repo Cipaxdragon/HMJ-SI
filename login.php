@@ -14,7 +14,7 @@ if ($result->num_rows > 0) {
 session_start();
 // Periksa apakah pengguna sudah login, jika ya, alihkan ke halaman dashboard
 if(isset($_SESSION['username'])){
-    header("Location: dashboard.php");
+    header("Location: d.php");
     exit;
 }
 
@@ -28,7 +28,7 @@ if(isset($_POST['submit'])){
     // Jika login berhasil, set session dan alihkan ke halaman dashboard
     if($username == $us && $password == $pw){
         $_SESSION['username'] = $username;
-        header("Location: dashboard.php");
+        header("Location: d.php");
         exit;
     } else {
         $error = "Salah Ki";

@@ -1,122 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRUD Dashboard with Sidebar</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Halaman Artikel</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-<body class="bg-gray-100">
+<body>
 
-  <!-- Sidebar -->
-  <aside class="bg-gray-800 text-white h-screen w-64 fixed top-0 left-0 overflow-y-auto">
-    <div class="p-4">
-      <h1 class="text-2xl font-semibold mb-4">Dashboard</h1>
-      <ul>
-        <li class="mb-2"><a href="#" class="text-gray-300 hover:text-white">Home</a></li>
-        <li class="mb-2"><a href="#" class="text-gray-300 hover:text-white">Users</a></li>
-        <li class="mb-2"><a href="#" class="text-gray-300 hover:text-white">Settings</a></li>
-      </ul>
+<!-- Navigasi -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Nama Situs</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kategori</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tentang Kami</a>
+            </li>
+        </ul>
     </div>
-  </aside>
+</nav>
 
-  <!-- Content -->
-  <div class="ml-64">
-    <header class="bg-gray-800 text-white text-center py-4">
-      <h1 class="text-2xl font-semibold">CRUD Dashboard</h1>
-    </header>
+<!-- Konten Artikel -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>Judul Artikel</h1>
+            <p class="text-muted">Tanggal Publikasi: 9 November 2023</p>
+            <img src="gambar-artikel.jpg" class="img-fluid" alt="Gambar Artikel">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...
+                <!-- Isi artikel -->
+            </p>
+        </div>
 
-    <div class="container mx-auto my-8 p-8 bg-white rounded shadow-md">
-      <h2 class="text-2xl font-semibold mb-4">Data List</h2>
-
-      <table class="w-full mb-8">
-        <thead>
-          <tr>
-            <th class="py-2 px-4 bg-gray-800 text-white">ID</th>
-            <th class="py-2 px-4 bg-gray-800 text-white">Title</th>
-            <th class="py-2 px-4 bg-gray-800 text-white">Date</th>
-            <th class="py-2 px-4 bg-gray-800 text-white">Image</th>
-            <th class="py-2 px-4 bg-gray-800 text-white">Text</th>
-            <th class="py-2 px-4 bg-gray-800 text-white">Action</th>
-          </tr>
-        </thead>
-        <tbody id="data-table-body">
-          <!-- Data will be inserted here dynamically using JavaScript -->
-        </tbody>
-      </table>
-
-      <h2 class="text-2xl font-semibold mb-4">Add New Data</h2>
-      <form id="data-form" class="mb-8">
-        <!-- Your form fields remain the same -->
-      </form>
+        <!-- Sidebar -->
+        <div class="col-md-4">
+            <h3>Berita Terkait</h3>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">Berita 1</a></li>
+                <li class="list-group-item"><a href="#">Berita 2</a></li>
+                <li class="list-group-item"><a href="#">Berita 3</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
+</div>
 
-  <script>
-    // Sample data for demonstration
-    const sampleData = [
-      { id: 1, title: 'Sample Title 1', date: '2023-11-08', image: 'image1.jpg', text: 'Sample Text 1' },
-      { id: 2, title: 'Sample Title 2', date: '2023-11-09', image: 'image2.jpg', text: 'Sample Text 2' },
-    ];
+<!-- Footer -->
+<footer class="bg-dark text-light text-center p-3">
+    &copy; 2023 Nama Situs. All rights reserved.
+</footer>
 
-    // Function to display data in the table
-    function displayData() {
-      const tableBody = document.getElementById('data-table-body');
-      tableBody.innerHTML = '';
-
-      sampleData.forEach(data => {
-        const row = `<tr>
-                      <td class="py-2 px-4">${data.id}</td>
-                      <td class="py-2 px-4">${data.title}</td>
-                      <td class="py-2 px-4">${data.date}</td>
-                      <td class="py-2 px-4">${data.image}</td>
-                      <td class="py-2 px-4">${data.text}</td>
-                      <td class="py-2 px-4">
-                        <button onclick="editData(${data.id})" class="text-blue-600">Edit</button>
-                        <button onclick="deleteData(${data.id})" class="text-red-600 ml-2">Delete</button>
-                      </td>
-                    </tr>`;
-        tableBody.innerHTML += row;
-      });
-    }
-
-    // Function to add new data
-    function addData() {
-      const title = document.getElementById('title').value;
-      const date = document.getElementById('date').value;
-      const image = document.getElementById('image').value;
-      const text = document.getElementById('text').value;
-
-      // Add new data to the sample data array (for demonstration)
-      const newData = {
-        id: sampleData.length + 1,
-        title,
-        date,
-        image,
-        text,
-      };
-      sampleData.push(newData);
-
-      // Display updated data in the table
-      displayData();
-
-      // Clear the form
-      document.getElementById('data-form').reset();
-    }
-
-    // Function to edit data (not implemented in this example)
-    function editData(id) {
-      // Implement edit functionality as needed
-    }
-
-    // Function to delete data (not implemented in this example)
-    function deleteData(id) {
-      // Implement delete functionality as needed
-    }
-
-    // Initial display of data
-    displayData();
-  </script>
+<!-- Bootstrap JS, Popper.js, jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
