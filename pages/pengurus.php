@@ -1,7 +1,7 @@
 <style>
-    body{
-        font-family: montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+   body{
+   font-family: montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
    .kotak_divisi{
    padding: 170px;
    display: flex;
@@ -43,8 +43,8 @@
    display: flex;
    }
    .kabid:active {
-    transform: scale(3); /* Skala elemen saat di-klik */
-    }
+   transform: scale(3); /* Skala elemen saat di-klik */
+   }
    .kabid .penjelasan{
    display: flex;
    flex-direction: column;
@@ -113,7 +113,7 @@
    $result = $conn->query($sql1);
    ?>
 <div class="kotak_divisi">
-    <h1><?php echo Divisi($i)?></h1>
+   <h1><?php echo Divisi($i)?></h1>
    <div class="kotak_kabid">
       <?php
          if ($result->num_rows > 0)

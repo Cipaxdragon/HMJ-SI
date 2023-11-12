@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES ('$judul', '$gambar', '$teks', '$waktu', '')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Postingan berhasil ditambahkan";
+        header("Location: ../d.php?success=true");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             WHERE id=$id";
     include_once "koneksi.php";
     if ($conn->query($sql) === TRUE) {
-        echo "Postingan berhasil diupdate";
+        header("Location: ../d.php?edit=true");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

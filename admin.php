@@ -1,3 +1,41 @@
+<?php
+ include_once "includes/koneksi.php";
+
+// Mengambil data admin
+$sql = "SELECT * FROM admin ";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $id = $row["id"];
+    $us = $row["username"];
+    $pw = $row["password"];
+}
+session_start();
+// Periksa apakah pengguna sudah login, jika ya, alihkan ke halaman dashboard
+if(isset($_SESSION['username'])){
+    header("Location: d.php");
+    exit;
+}
+
+// Periksa apakah form login disubmit
+if(isset($_POST['submit'])){
+    // Periksa username dan password
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    
+    // Jika login berhasil, set session dan alihkan ke halaman dashboard
+    if($username == $us && $password == $pw){
+        $_SESSION['username'] = $username;
+        header("Location: d.php");
+        exit;
+    } else {
+        $error = true;
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,17 +67,17 @@
                 <h2 class="text-center mb-4">Login Bos</h2>
                 <?php if(isset($error)) { ?>
                     <div class="alert alert-danger" role="alert">
-                        <?php echo $error; ?>
+                        Salah i pass na
                     </div>
                 <?php } ?>
-                <form method="POST" action="login.php">
+                <form method="POST" >
                     <div class="form-group">
                         <label for="username">Username</label>
-                        <input type="text" class="form-control" name="username" id="username" placeholder="Username" required>
+                        <input type="text" class="form-control" name="username" id="username" placeholder="Username" autocomplete="off" required>
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Password" autocomplete="off" required>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block" name="submit">Login</button>
                 </form>

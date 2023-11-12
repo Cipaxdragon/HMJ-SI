@@ -10,7 +10,8 @@ include_once "koneksi.php";
 $sql = "DELETE FROM postingan WHERE id = $id";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Postingan berhasil dihapus";
+    header("Location: ../d.php?delete=true");
+    
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
